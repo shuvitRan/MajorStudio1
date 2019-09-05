@@ -1,3 +1,16 @@
+.DS_Store
+*.zip
+*.gz  (compressed)
+log/*.log
+log/*.log.[0-9]
+node_modules/
+*.log
+.c9/
+package-lock.json
+.env
+ecosystem.config.js
+
+
 *.rbc
 .config
 coverage
@@ -25,25 +38,4 @@ _Store
 .ruby-gemset
 .rvmrc
 Gemfile.lock
-.bundle
-*.gem
 
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
-.idea
-
-# chef stuff
-Berksfile.lock
-.kitchen
-kitchen.local.yml
-vendor/
-.coverage/
-.zero-knife.rb
-Policyfile.lock.json
-
-# vagrant stuff
-.vagrant/
-.vagrant.d/
-.kitchen/
