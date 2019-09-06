@@ -59,7 +59,6 @@ function addObject(objectData){
     
     // myArray.push{
       
-      
     // };
     
 }
