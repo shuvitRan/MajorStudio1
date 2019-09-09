@@ -4,8 +4,9 @@ const objectBaseUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/
 const IslamicArtUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14';
 const IslamNFashionUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14&departmentIds=1'
 
+const ChineseArtUrl = "https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=6&&culture=China"
 
-fetchMuseumData(IslamNFashionUrl);
+fetchMuseumData(ChineseArtUrl);
 
 let metData;
 let myArray = [];
@@ -17,18 +18,19 @@ function fetchMuseumData(url) {
     .then(data => data.json())
     .then(data => {
       console.log(data);
-      fetchObjects(data);
+      fetchObjects(data);})
+    .then(data => {
+      console.log(myArray);
     });
+
+
 }
 
 // from the response, fetch objects
 function fetchObjects(data){
 
-  let objectIDs = data.objectIDs.slice(0,5);
+  let objectIDs = data.objectIDs.slice(0,20);
   console.log("fetching: " + objectIDs.length + " objects");
-
-
-
     objectIDs.forEach(function(n) {
       // console.log(objectBaseUrl + n);
       let objUrl = objectBaseUrl + n;
@@ -40,16 +42,16 @@ function fetchObjects(data){
           addObject(data);
         });
     });
-console.log(myArray);
+
 }
 
 // create your own array using just the data you need
 function addObject(objectData){
-    var currentID = objectData.objectID;
-    var currentTitle = objectData.title;
-    var currentDate = objectData.objectBeginDate;
-    var imgUrl = objectData.primaryImage;
-    var index = myArray.length;
+    // var currentID = objectData.objectID;
+    // var currentTitle = objectData.title;
+    // var currentDate = objectData.objectBeginDate;
+    // var imgUrl = objectData.primaryImage;
+    // var index = myArray.length;
     // myArray[index] = {};
     // myArray[index]["title"] = currentTitle;
     // myArray[index]["date"] = currentDate;
@@ -58,9 +60,13 @@ function addObject(objectData){
 
 
     myArray.push({
-      "title" : currentTitle,
-      "date" : currentDate,
-      "image" : imgUrl
+      "title" : objectData.title,
+      "date" : objectData.objectBeginDate,
+      "image" : objectData.primaryImage,
+      "additionalImages" : objectData.additionalImages,
+      "objectName" : objectData.objectName,
+      "culture" : objectData.culture
+
     });
 
 
