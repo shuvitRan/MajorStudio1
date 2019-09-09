@@ -4,7 +4,10 @@ const objectBaseUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/
 const IslamicArtUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14';
 const IslamNFashionUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14&departmentIds=1'
 
-const ChineseArtUrl = "https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=6&&culture=China"
+const ChineseArtUrl = "https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=6"
+
+//search needs contain a query.
+const ChineseArtUrl2 = "https://collectionapi.metmuseum.org/public/collection/v1/search?q=Painting"
 
 fetchMuseumData(ChineseArtUrl);
 
@@ -29,10 +32,12 @@ function fetchMuseumData(url) {
 // from the response, fetch objects
 function fetchObjects(data){
 
+
+
   let objectIDs = data.objectIDs.slice(0,20);
   console.log("fetching: " + objectIDs.length + " objects");
     objectIDs.forEach(function(n) {
-      // console.log(objectBaseUrl + n);
+      console.log(objectBaseUrl + n);
       let objUrl = objectBaseUrl + n;
       window
         .fetch(objUrl)
@@ -63,12 +68,13 @@ function addObject(objectData){
       "title" : objectData.title,
       "date" : objectData.objectBeginDate,
       "image" : objectData.primaryImage,
-      "additionalImages" : objectData.additionalImages,
+      // "additionalImages" : objectData.additionalImages,
       "objectName" : objectData.objectName,
-      "culture" : objectData.culture
+      "culture" : objectData.culture,
+      "classification" : objectData.classification
 
     });
-
+    console.log(objectData.culture);
 
 
 }
