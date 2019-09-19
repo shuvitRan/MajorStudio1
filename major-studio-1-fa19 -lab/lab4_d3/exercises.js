@@ -20,15 +20,22 @@ function setup() {
     // Promises are a feature of asynchronous JavaScript
     // Promise.all() starts multiple asynchronous functions
     // and waits for them all to finish before going on to the `.then`
-    Promise.all(
-      data.objectIDs.map(objectId => d3.json(objectEndpoint + objectId))
-    ).then(data => {
-      console.log(data);
-      objects = data;
-      d3.selectAll(".ex")
-        .select("button")
-        .attr("disabled", null);
-    });
+    return Promise.all(
+      data.objectIDs.map(objectId => d3.json(objectEndpoint + objectId)));
+    // ).then((data) => {
+    // // return data.objectIDs;
+    // console.log(data);
+    //   objects = data;
+    //   d3.selectAll(".ex")
+    //     .select("button")
+    //     .attr("disabled", null);
+    // });
+  }).then((data)=>{
+     console.log(data);
+      // objects = data;
+      // d3.selectAll(".ex")
+      //   .select("button")
+      //   .attr("disabled", null);
   });
 }
 
