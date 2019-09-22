@@ -9,7 +9,7 @@ var svg = d3.selectAll('#viz')
             .attr("height", height);
 
 let metChinese =[], allwords=[];
-let countChinese=[];
+// let countChinese=[];
 
 let promises = [
   d3.csv('/../MajorStudioSupportFile/SelectedData/ChinesePainting.csv'),
@@ -17,14 +17,13 @@ let promises = [
   d3.csv('/../MajorStudioSupportFile/SelectedData/IranianPainting.csv')
 ]
 Promise.all(promises).then((data) =>{
-  console.log(data[0]);
-  // metChinese =  NestingTheData(data[0].['Tags']);
-  metChinese =  splitData(data[0])
-  console.log(metChinese[100]["Tags"]);
+  // console.log(data[0]);
+  return splitData(data)
+}).then((data) =>{
+  metChinese = data[0];
+
   countWord(metChinese,1400,1600);
-  console.log(countChinese);
-
-
+  // console.log(countChinese);
 }).catch((err) =>{
   console.error(err);
 });
@@ -53,33 +52,38 @@ function NestingTheData(data){
   }
 
   function splitData(data){
+
     for( let i = 0 ; i < data.length; i++){
-      data[i]["Tags"] = data[i]["Tags"].split('|')
+      for(let a =0 ; a < data[i].length; a++){
+        data[i][a]["Tags"] = data[i][a]["Tags"].split('|')
+      }
     }
     return data;
-
   }
 
 function countWord(data, startYear, endYear){
 let countItems=0;
-  for( let i = 0 ; i < data.length; i++){
-    // for each (a in data[i]["Tags"])
-    // data[i]["Tags"] = data[i]["Tags"].split('|')
-    if(data[i]["Object End Date"]>startYear && data[i]["Object End Date"]<endYear){
-      countItems++;
-      if(data[i]["Tags"].length>0){
-        for( let a = 0; a<data[i]["Tags"].length; a++){
-          let word = data[i]["Tags"][a];
-            if(countChinese[word] === undefined){
-              countChinese[word] = 1;
-            } else {
-              countChinese[word] = countChinese[word]+1;
+let countmyWord = []
+    for( let i = 0 ; i < data.length; i++){
+      if(data[i]["Object End Date"]>startYear && data[i]["Object End Date"]<endYear){
+        countItems++;
+
+          for( let a = 0; a<data[i]["Tags"].length; a++){
+            let word = data[i]["Tags"][a];
+            if(word!=""){
+                if(countmyWord[word] === undefined){
+                  countmyWord[word] = 1;
+                } else {
+                  countmyWord[word] = countmyWord[word]+1;
+                }
             }
           }
-        }
+      }
     }
-  }
-  console.log(countItems);
+
+  console.log(Object.keys(countmyWord).length);
+  console.log(countmyWord);
+  console.log("number of painting in section: " + countItems);
   // console.log(countItems);
 
 }
