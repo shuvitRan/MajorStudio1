@@ -1,5 +1,36 @@
-html,body{
+/* html,body{
   margin: 0;
   height: 100%;
   background-color: #eeeded;
+} */
+body {
+  font: 10px sans-serif;
+  margin: 0;
+  text-anchor: end;
+}
+
+.line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.area {
+  fill: #e7e7e7;
+}
+
+#viz  {
+/*
+  display: "block";
+  fill: blue;
+  background-color: red:
+  position: fixed; */
+/* height: 900px; */
+  /* position: fixed; */
+   /* top: 20px; */
+   background-color: white;
+   /* width:90%; */
+   /* display: block; */
+   /* margin: 0 0 0 -50%; */
+   /* left: auto; */
 }
