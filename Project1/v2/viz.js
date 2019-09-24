@@ -1,10 +1,51 @@
 const margin = {top:20, right:20, buttom:20, left:20},
     width = (300 - margin.left - margin.right),
-    height = (200 - margin.top - margin.buttom);
+    height = (320 - margin.top - margin.buttom);
 var nodePadding = .5;
 
 var colorPallet2 = d3.scaleOrdinal(["#B15A6C","#846C94","#3A7E92","#308368","#677D3B","#976D35"])
+var colorPallet3 = d3.scaleOrdinal(
+  ["#6dbd7f",
+  "#ca5b92",
+  "#5b863d",
+  "#907cc3",
+  "#bea747",
+  "#bd7c8e",
+  "#54a091",
+  "#c3694c",
+  "#827038",
+  "#c6a479"]
 
+//   ["#6362f0",
+// "#4eb528",
+// "#9a48f1",
+// "#ea511d",
+// "#c441e9",
+// "#eb254c",
+// "#ad59e2",
+// "#f3279e",
+// "#d745df",
+// "#de3ec2"]
+
+// ["#ee4880",
+// "#e57e20",
+// "#be2455",
+// "#af5616",
+// "#e8385c",
+// "#e87c45",
+// "#951a30",
+// "#ec4520",
+// "#c14652",
+// "#c73f1c",
+// "#eb625a",
+// "#972611",
+// "#d72f38",
+// "#b9512e",
+// "#a9272c"]
+
+
+
+);
 
 let metChinese =[], allwords=[];
 // let countChinese=[];
@@ -12,25 +53,63 @@ let metChinese =[], allwords=[];
 
 
 let promises = [
-  d3.csv('/../MajorStudioSupportFile/SelectedData/ChinesePainting.csv'),
-  d3.csv('/../MajorStudioSupportFile/SelectedData/ItalianPainting.csv'),
-  d3.csv('/../MajorStudioSupportFile/SelectedData/FrenchPainting.csv'),
-  d3.csv('/../MajorStudioSupportFile/SelectedData/AmericanPainting.csv'),
-  d3.csv('/../MajorStudioSupportFile/SelectedData/IranianPainting.csv')
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/ChinesePainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/ItalianPainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/FrenchPainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/AmericanPainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/IranianPainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/JapanesePainting.csv'),
+  // d3.csv('/../MajorStudioSupportFile/SelectedData/IndianPainting.csv')
+
+  d3.csv('SelectedData/ChinesePainting.csv'),
+  d3.csv('SelectedData/ItalianPainting.csv'),
+  d3.csv('SelectedData/FrenchPainting.csv'),
+  d3.csv('SelectedData/AmericanPainting.csv'),
+  d3.csv('SelectedData/IranianPainting.csv'),
+  d3.csv('SelectedData/JapanesePainting.csv'),
+  d3.csv('SelectedData/IndianPainting.csv')
 ]
 Promise.all(promises).then((data) =>{
   // console.log(data[0]);
   return splitData(data)
 }).then((data) =>{
-  metChinese = data[0];
+  // metChinese = data[0];
 
  // let ChineseTagData = countCulture(data[0]);
  let ChineseTagData = NestingTheData(countCulture(data[0]));
-  console.log(ChineseTagData);
+  let ItalianTagData = NestingTheData(countCulture(data[1]));
+   let FrenchTagData = NestingTheData(countCulture(data[2]));
+    let IrannianTagData = NestingTheData(countCulture(data[4]));
+    let AmericanTagData = NestingTheData(countCulture(data[3]));
+    let JapaneseTagData = NestingTheData(countCulture(data[5]));
+    let IndianTagData = NestingTheData(countCulture(data[6]));
+  // console.log(ChineseTagData);
 
 // NestingTheData(ChineseTagData));
 // return ChineseTagData;
-chartOfTags(ChineseTagData);
+chartOfTags(ItalianTagData, "#italyviz");
+chartOfTags(ChineseTagData, "#chinaviz");
+chartOfTags(IrannianTagData, "#iranviz");
+chartOfTags(FrenchTagData, "#frenchviz");
+chartOfTags(IndianTagData, "#indiaviz");
+chartOfTags(AmericanTagData, "#usaviz");
+chartOfTags(JapaneseTagData, "#japanviz");
+
+d3.selectAll(".describe")
+  .append("svg")
+  .style("height", 200 + 'px')
+  .style("width",100 + 'px')
+  .style("display", "inline-block")
+  .style("position", "absolute")
+  .style("top", "0px")
+  .append("line")
+  // .style("position", "absolute")
+   .attr("x1", 100)
+   .attr("y1", 0)
+   .attr("x2", 70)
+   .attr("y2", 400)
+   .attr("stroke-width", 2)
+   .attr("stroke", "grey");
 
 })
 .catch((err) =>{
@@ -38,91 +117,100 @@ chartOfTags(ChineseTagData);
 });
 
 
-function chartOfTags(data){
-  console.log(height + margin.top + margin.buttom);
-  console.log(width + margin.left + margin.right);
+function chartOfTags(data, id){
+
+  // d3.selectAll("#timeline")
+  //    .style("width", '1350px')
+  //    .style("display", "inline-block")
+  //    .style("position", "fixed")
+  //    .append("text")
+  //    ;
+
+
+  d3.selectAll(id)
+     .style("width", '1250px')
+     .style("display", "inline-block");
+
+
 
   var svg = d3.select("body")
-              .select("#viz")
-              .selectAll("circle")
-              .data(data)
+              .select(id)
+              .selectAll(null);
+
+     //  svg.append("text")
+     //      .style("fill","black")
+     //  // .style("fill","white")
+     //      .attr("x", (d)=>{
+     //       if (d.number != null){
+     //       return width/2+rectwidth(d.number+15);
+     //       }
+     //     })
+     // .attr("y", (d,i)=> {
+     //   let textY=15;
+     //   textY=i*30+textY;
+     //   return textY;
+     // })
+     // .text((d)=>{
+     //   return d.number;
+     // })
+     // .style("font-size","8px");
+
+
+
+  let eachGraph = svg.data(data)
               .enter()
               .append("svg")
               .style("height", height + margin.top + margin.buttom+ 'px')
               .style("width", width + margin.left + margin.right+ 'px')
-              .each(multiple);
+              .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+              // .each(multipleCircle);
+              .each(multipleText);
 
-          svg.append("text")
-              .attr("x",  50)
-              .attr("y", 15)
-              .style("fill", "black")
-              .text(function(d) { return d.key; });
+      //------text on every graph
+      // eachGraph.append("text")
+      //         .attr("x",  50)
+      //         .attr("y", 15)
+      //         .style("fill", "black")
+      //         .text(function(d) { return d.key; });
 
 
 }
 
 
 
-function multiple(data) {
+function multipleCircle(data) {
   // console.log(data)
-  var svg = d3.select(this);
+  let svg = d3.select(this);
                 // .append("g");
 
   let reScaleClaf = d3.scaleLinear()
     .domain([1,200])
     .range([5,40]);
 
-    var y = d3.scaleLinear()
-        .domain([0, d3.max(data.values, function(d) {
-          // console.log(d.number);
-          return d.tags; })])
-        .range([height, 0]);
-
-    //     var radius = d3.scaleSqrt()
-    // .range([0, 220]);
-
-    // radius.domain([0, d3.max(data, function(d) { return d.number; })]);
-
-// var r = radius(d.number);
-// console.log(r);
-
-
-
-    // var circle = d3.circle()
-    //               .r((d)=> {
-    //                 console.log(d.number);
-    //                 return y(d.number);
-    //               })
 
    var clafNode =svg.selectAll("g")
-                    // .append("circle")
-                    // .attr("cx", 30)
-                    // .attr("cy", 30)
-                    // .attr("r", 20)
-      // .selectAll("circle")
-      //
-      .data(function(d){
-        return d.values;
-      })
-      .enter()
-      .append("circle")
-      .attr("cx",10)
-      .attr("cy", 20)
-      .attr("r", (d)=>  {
-          // console.log(d.number);
-          return reScaleClaf(d.number);
-        })
-        // return reScaleClaf(d.number)}
-      // })
-        .style("fill", (d)=> colorPallet2(d.tag))
-        // .style("fill", "#956B65")
-        .style("fill-opacity", 0.5)
-        // .attr("stroke", "#b3a2c8")
-        // .style("stroke-width", 4)
-        .call(d3.drag() // call specific function when circle is dragged
-           .on("start", dragstarted)
-           .on("drag", dragged)
-           .on("end", dragended));
+                    .data(function(d){
+                      return d.values;
+                    })
+                    .enter()
+                    .append("circle")
+                    .attr("cx",10)
+                    .attr("cy", 20)
+                    .attr("r", (d)=>  {
+                        // console.log(d.number);
+                        return reScaleClaf(d.number);
+                      })
+                      // return reScaleClaf(d.number)}
+                    // })
+                    .style("fill", (d)=> colorPallet2(d.tag))
+                      // .style("fill", "#956B65")
+                    .style("fill-opacity", 0.5)
+                      // .attr("stroke", "#b3a2c8")
+                      // .style("stroke-width", 4)
+                    .call(d3.drag() // call specific function when circle is dragged
+                         .on("start", dragstarted)
+                         .on("drag", dragged)
+                         .on("end", dragended));
 
 
            var simulation = d3.forceSimulation()
@@ -135,7 +223,7 @@ function multiple(data) {
               // Once the force algorithm is happy with positions ('alpha' value is low enough), simulations will stop.
 
               // sort the nodes so that the bigger ones are at the back
-                    // graph = graph.sort(function(a,b){ return b.size - a.size; });
+              // graph = graph.sort(function(a,b){ return b.size - a.size; });
 
 
 
@@ -179,6 +267,29 @@ function countCulture(data){
   let time2 = countWord(data,1300,1600);
   let time3 = countWord(data,1600,1900);
   let time4 = countWord(data,1900,2100);
+
+// console.log(time1);
+
+//condition of no data of tags
+  if(time1.length == 0){
+    var thisObject = {
+      tag:"No Record",
+      // number:countmyWord[key],
+      year:1300
+    }
+    time1.push(thisObject);
+  }
+
+  if(time2.length == 0){
+    var thisObject = {
+      tag:"No Record",
+      // number:countmyWord[key],
+      year:1600
+    }
+    time1.push(thisObject);
+  }
+
+
   return time1.concat(time2,time3,time4);
 }
 
@@ -264,8 +375,15 @@ function compare(a,b){
     }
 
 
-  console.log(`number of painting in section ${endYear} : ` + countItems);
+
+// **** Check numbers of painting in this section
+  // console.log(`number of painting in section ${endYear} : ` + countItems);
 
   return myObject;
 
+}
+
+
+function scrollWin() {
+  window.scrollTo(0, 0);
 }

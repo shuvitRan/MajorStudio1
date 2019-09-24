@@ -1,23 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>met data visulization, Tags Comparison</title>
-    <script src="lib/d3.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="css/master.css">
-  </head>
-  <body>
 
-<div>
-  hello
+<head>
+  <meta charset="utf-8">
+  <title>met data visulization, Tags Comparison</title>
+  <script src="lib/d3.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+
+
+<div style="padding:2% 5% 1%; background-color:white;width:auto;">
+<h1>What Are They Painting?</h1>
+    <p id="subtitle"> by Dan Ran, Sep.23, 2019</p>
+  </div>
+
+  <p id="mainDes"> An insight of Metropolitan Musume of Art's paintings collection. This is a data visualization of the top 10 tags of paintings from 7 countries/civilizations in four periods of time: before 1300 CE, 1300 CE – 1600 CE Renaissance in Europe, 1600 – 1900 covering the Enlightenment, and 1900 to today, the modern era. It gives you a close look at the changes in painting subjects throughout a country’s history and the differences between each country within the same time period.
+Due to the limitations of the data set, this visualization may not capable of representing the actual cultural differences between countries.
+       </p>
+
+<div style="background-color: rgb(244, 242, 242);">
+
+
+  <div id="wrap">
+    <!-- <div style="background-color: black; width:100%; "> -->
+    <div id = "timeline">
+      <!-- 256.25 -->
+      <p style="padding-left : 230px;" >Before 1300 CE</p>
+      <p style="padding-left: 170px;"> 1300 CE – 1600 CE </p>
+      <p style="padding-left : 130px;"> 1600 CE – 1900 CE </p>
+      <p style="padding-left : 130px;"> 1900 CE – 2019 CE </p>
+      </div>
+    <!-- </div> -->
+          <div class="vizGraph">
+        <span class="describe">
+          <p class="desP"> Italy</p>
+        </span>
+        <span id="italyviz"></span>
+
+      </div>
+
+      <div class="vizGraph">
+        <span class="describe">
+          <p class="desP"> China</p>
+        </span>
+        <span id="chinaviz"></span>
+      </div>
+
+
+      <div class="vizGraph">
+        <span class="describe">
+          <p class="desP"> France</p>
+        </span>
+        <span id="frenchviz"></span>
+      </div>
+
+      <div class="vizGraph">
+        <span class="describe">
+          <p class="desP"> Iran</p>
+        </span>
+        <span id="iranviz"></span>
+      </div>
+
+
+    <div class="vizGraph">
+      <span class="describe">
+        <p class="desP"> India</p>
+      </span>
+      <span id="indiaviz"></span>
+    </div>
+
+
+    <div class="vizGraph">
+      <span class="describe">
+        <p class="desP"> United States</p>
+      </span>
+      <span id="usaviz"></span>
+    </div>
+
+
+    <div class="vizGraph">
+      <span class="describe">
+        <p class="desP"> Japan</p>
+      </span>
+      <span id="japanviz"></span>
+    </div>
+    </div>
+
+
+  </div>
 </div>
 
+<footer>
+  <div class="citeNote">
 
-    <div id="viz"></div>
-  </body>
+    <p style="color:rgb(55, 52, 52);">Data Source: <a href="https://metmuseum.github.io/">Metropolitan Museum of Art</a>
+  </div>
+  <div class="myfooter">
+    <button id="views" onclick="scrollWin()">Back to top</button>
+  </div>
+</footer>
 
 
-    <script type="text/javascript" src="viz.js"></script>
+</body>
+
+
+<script type="text/javascript" src="viz.js"></script>
+<script type="text/javascript" src="mulText.js"></script>
 
 </html>
