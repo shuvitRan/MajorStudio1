@@ -46,23 +46,34 @@ function fetchMuseumData(url) {
     .then(data => {
       // console.log(data);
       fetchObjects(data);
-    });
+    }).catch(error => { console.log('caught', err.message); });
 }
 
-
-
+//
+// function timeout(ms, promise) {
+//   return new Promise(function(resolve, reject) {
+//     setTimeout(function() {
+//       reject(new Error("timeout"))
+//     }, ms)
+//     promise.then(resolve, reject)
+//   })
+// }
 
 
 // from the response, fetch objects
 function fetchObjects(data){
+  //check first 5
+  // let objectIDs = data.objectIDs.slice(0,90);
 
-  let objectIDs = data.objectIDs.slice(0,5);
+  let objectIDs = data.objectIDs;
   console.log("fetching: " + objectIDs.length + " objects");
 
 
 
     objectIDs.forEach(function(n) {
       // console.log(objectBaseUrl + n);
+
+      setTimeout(function(){
       let objUrl = objectBaseUrl + n;
 
         fetch(objUrl)
@@ -70,14 +81,18 @@ function fetchObjects(data){
         .then(data => {
           // console.log(data);
           addObject(data);
+
+          return myArray;
         }).then(data=>{
+          // console.log(data);
 
-        fs.writeFileSync('./data1.json', JSON.stringify(myArray), 'utf8')
+              fs.writeFileSync('./data1.json', JSON.stringify(myArray), 'utf8')
 
 
-        });
-    });
+      }).catch(error => { console.log('caught', err.message); });
 
+  },500);
+  });
 }
 // create your own array using just the data you need
 function addObject(objectData){
@@ -86,11 +101,16 @@ function addObject(objectData){
     var currentDate = objectData.objectBeginDate;
     var imgUrl = objectData.primaryImage;
     var classification = objectData.classification;
+    var culture = objectData.culture;
+    var country = objectData.country;
+
     var index = myArray.length;
     myArray[index] = {};
     myArray[index]["title"] = currentTitle;
     myArray[index]["date"] = currentDate;
     myArray[index]["image"] = imgUrl;
+    myArray[index]["culture"] = culture;
+    myArray[index]["country"] = country;
     myArray[index]["finlename"] = objectData.primaryImage.split('/').pop();
     myArray[index]["classification"] = classification;
     // console.log(myArray[index]);
