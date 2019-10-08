@@ -1,11 +1,13 @@
-const searchUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers';
+// const searchUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers';
 const objectBaseUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/';
 
 const IslamicArtUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14';
 const IslamNFashionUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/objects?departmentIds=14&departmentIds=1'
 
+const searchUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/search?q=buddha';
 
-fetchMuseumData(IslamNFashionUrl);
+
+fetchMuseumData(searchUrl);
 
 let metData;
 let myArray = [];
@@ -49,11 +51,14 @@ function addObject(objectData){
     var currentTitle = objectData.title;
     var currentDate = objectData.objectBeginDate;
     var imgUrl = objectData.primaryImage;
+    var classification = objectData.classification;
     var index = myArray.length;
     myArray[index] = {};
     myArray[index]["title"] = currentTitle;
     myArray[index]["date"] = currentDate;
     myArray[index]["image"] = imgUrl;
+    myArray[index]["finlename"] = objectData.primaryImage.split('/').pop();
+    myArray[index]["classification"] = classification;
     console.log(myArray[index]);
 
 

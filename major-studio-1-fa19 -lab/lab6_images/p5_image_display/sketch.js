@@ -41,7 +41,6 @@ function drawImages() {
       images[i].resize(0, img_height);
       // image(images[i],(thiswidth),thisY, images[i].width/4, images[i].height/4);
       image(images[i],thiswidth, thisY,images[i].width, images[i].height);
-
       text(met_data[i].title, thiswidth+20, images[i].height+thisY+20);
 
       thiswidth+= images[i].width;
@@ -49,16 +48,8 @@ function drawImages() {
         thisY+= images[i].height+40;
         thiswidth=0;
       }
-      // console.log(thisY);
       console.log(images[i].height);
       console.log(images[i].width);
-      // images[i].resize(10,0);
-
-
-      // images[i].resize(0, img_width);
-
-
-
 
   }
 }
