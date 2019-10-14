@@ -14,15 +14,36 @@ var request = require('request')
 const url = 'https://collectionapi.metmuseum.org/public/collection/v1/objects'
 
 // object Ids I want to download
-const myObjectIds = [
-  155730,
-81104,
-155730
-]
+let myObjectIds = []
 
+let obj;
+fs.readFile("./objIds.json", "utf8", (err, data) => {
+
+
+myObjectIds = JSON.parse(data);
+
+console.log(myObjectIds.length);
 
 // set up empty Array for us to save results to
 const myArray = []
+
+
+// the function inside the setTimeout saves myResults to a JSON
+// it will automatically run after 2000 ms
+setTimeout(() => {
+    fs.writeFileSync('./data2.json', JSON.stringify(myArray), 'utf8')
+}, 2000)
+
+
+
+myObjectIds.forEach(objectId => {
+    fetchUrl(objectId)
+})
+
+});
+
+
+
 
 function fetchUrl(objectId){
     request(url + '/' + objectId, function (error, response, body) {
@@ -40,15 +61,4 @@ function fetchUrl(objectId){
       myArray[index]["primaryImage"] = obj.primaryImage;
       myArray[index]["filename"] = obj.primaryImage.split('/').pop();
     });
-}
-
-// call the function for each element in the myObjectIds array
-myObjectIds.forEach(objectId => {
-    fetchUrl(objectId)
-})
-
-// the function inside the setTimeout saves myResults to a JSON
-// it will automatically run after 2000 ms
-setTimeout(() => {
-    fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
-}, 2000)
+  }

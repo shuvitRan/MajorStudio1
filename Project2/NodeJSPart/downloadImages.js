@@ -3,9 +3,9 @@
 // let fs = require('fs');
 // // load a default library that lets us make HTTP requests (like calls to an API)
 // let request = require('request');
-//
+
 // let obj;
-// fs.readFile("./data1.json", "utf8", (err, data) => {
+// fs.readFile("./data.json", "utf8", (err, data) => {
 //
 //
 // obj = JSON.parse(data);
@@ -14,6 +14,9 @@
 //
 // });
 
+//419 items in json file
+
+// Downloading Image
 
 // load a default library that lets us read/write to the file system
 let fs = require('fs');
@@ -34,17 +37,18 @@ function downloadImage(uri, filename, callback){
 
 // go through the json we created before
 function downloadData() {
-  fs.readFile("./data1.json", "utf8", (err, data) => {
+  fs.readFile("./data.json", "utf8", (err, data) => {
     if (err) console.log(err);
 
-    JSON.parse(data).forEach(e => {
-      if(e.finlename != null){
-      console.log('Downloading ' + e.finlename);
-      downloadImage(e.image, e.finlename, function(){
-        console.log('Finished Downloading ' + e.finlename);
-
+    JSON.parse(data).forEach((e,i) => {
+      setTimeout(function(){
+      if(e.filename != null){
+      console.log('Downloading ' + e.filename);
+      downloadImage(e.image, e.objIds+".jpg", function(){
+        console.log('Finished Downloading ' + e.filename);
       });
     }
+  }, i*1000);
   });
 
   });

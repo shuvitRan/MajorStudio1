@@ -16,8 +16,10 @@ const objectBaseUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/
 // var request = require('request')
 
 // endpoint URL
-const url = 'https://collectionapi.metmuseum.org/public/collection/v1/search?q=buddha';
+const url = 'https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=buddha';
 
+
+// 37426, 38649, 38226 (these three were took out from the json file, it is not realted to buddha  )
 
 // object Ids I want to download
 // const myObjectIds = [
@@ -63,36 +65,38 @@ function fetchMuseumData(url) {
 // from the response, fetch objects
 function fetchObjects(data){
   //check first 5
-  // let objectIDs = data.objectIDs.slice(0,90);
+  // let objectIDs = data.objectIDs.slice(0,5);
 
   let objectIDs = data.objectIDs;
   console.log("fetching: " + objectIDs.length + " objects");
 
+// fs.writeFileSync('./objIds.json', JSON.stringify(data.objectIDs), 'utf8')
 
-
-    objectIDs.forEach(function(n) {
+    objectIDs.forEach(function(n, i) {
+      //check link if it's correct
       // console.log(objectBaseUrl + n);
 
+      //save to my own json with setTimeout, Rate limiter——————————*****
       setTimeout(function(){
-      let objUrl = objectBaseUrl + n;
+        let objUrl = objectBaseUrl + n;
 
-        fetch(objUrl)
-        .then(data => data.json())
-        .then(data => {
-          // console.log(data);
-          addObject(data);
+          fetch(objUrl)
+          .then(data => data.json())
+          .then(data => {
+            console.log(i);
+            // console.log(data);
+              if(data.classification=="Sculpture"){
+                addObject(data)
+              };
+            // return myArray;
+          }).then(data=>{
+            // console.log(data);
+              fs.writeFileSync('./data.json', JSON.stringify(myArray), 'utf8')
+          }).catch(error => { console.log('caught', err.message); });
+      }, i*100)
+        });
 
-          return myArray;
-        }).then(data=>{
-          // console.log(data);
 
-              fs.writeFileSync('./data1.json', JSON.stringify(myArray), 'utf8')
-
-
-      }).catch(error => { console.log('caught', err.message); });
-
-  },500);
-  });
 }
 // create your own array using just the data you need
 function addObject(objectData){
@@ -102,25 +106,39 @@ function addObject(objectData){
     var imgUrl = objectData.primaryImage;
     var classification = objectData.classification;
     var culture = objectData.culture;
-    var country = objectData.country;
+    var medium = objectData.medium;
+    // var country = objectData.country;
 
     var index = myArray.length;
-    myArray[index] = {};
-    myArray[index]["title"] = currentTitle;
-    myArray[index]["date"] = currentDate;
-    myArray[index]["image"] = imgUrl;
-    myArray[index]["culture"] = culture;
-    myArray[index]["country"] = country;
-    myArray[index]["finlename"] = objectData.primaryImage.split('/').pop();
-    myArray[index]["classification"] = classification;
+    // myArray[index] = {};
+    // myArray[index]["objIds"] = currentID;
+    // myArray[index]["title"] = currentTitle;
+    // myArray[index]["date"] = currentDate;
+    // myArray[index]["image"] = imgUrl;
+    // myArray[index]["culture"] = culture;
+    // // myArray[index]["country"] = country;
+    // myArray[index]["filename"] = objectData.primaryImage.split('/').pop();
+    // myArray[index]["classification"] = classification;
+
     // console.log(myArray[index]);
 
     // return myArray;
-    // myArray.push{
-    //
-    // };
+    myArray.push({
+      objIds : currentID,
+      date : currentDate,
+      image : imgUrl,
+      culture: culture,
+      // country :country,
+      filename : objectData.primaryImage.split('/').pop(),
+      classification: classification,
+      medium: medium
+    });
 
 }
+
+
+
+
 
 // the function inside the setTimeout saves myResults to a JSON
 // it will automatically run after 2000 ms
