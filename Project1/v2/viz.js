@@ -67,7 +67,9 @@ let promises = [
   d3.csv('SelectedData/AmericanPainting.csv'),
   d3.csv('SelectedData/IranianPainting.csv'),
   d3.csv('SelectedData/JapanesePainting.csv'),
-  d3.csv('SelectedData/IndianPainting.csv')
+  d3.csv('SelectedData/IndianPainting.csv'),
+  d3.csv('SelectedData/GermanyPainting.csv'),
+  d3.csv('SelectedData/BritishPainting.csv')
 ]
 Promise.all(promises).then((data) =>{
   // console.log(data[0]);
@@ -83,6 +85,8 @@ Promise.all(promises).then((data) =>{
     let AmericanTagData = NestingTheData(countCulture(data[3]));
     let JapaneseTagData = NestingTheData(countCulture(data[5]));
     let IndianTagData = NestingTheData(countCulture(data[6]));
+    let GermanyTagData = NestingTheData(countCulture(data[7]));
+    let BritishTagData = NestingTheData(countCulture(data[8]));
   // console.log(ChineseTagData);
 
 // NestingTheData(ChineseTagData));
@@ -94,6 +98,8 @@ chartOfTags(FrenchTagData, "#frenchviz");
 chartOfTags(IndianTagData, "#indiaviz");
 chartOfTags(AmericanTagData, "#usaviz");
 chartOfTags(JapaneseTagData, "#japanviz");
+chartOfTags(GermanyTagData, "#germviz");
+chartOfTags(BritishTagData, "#britishviz");
 
 d3.selectAll(".describe")
   .append("svg")

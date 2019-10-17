@@ -53,7 +53,7 @@ function multipleText(data){
              return textY;
            })
 
-           .attr("height", 2)
+           .attr("height", 10)
            .attr("rx",2)
            .attr("ry",2)
            .attr("width", "0")
