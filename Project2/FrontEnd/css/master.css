@@ -1,0 +1,415 @@
+html{
+  box-sizing: border-box;
+
+}
+body {
+  font: 10px Arial,Helvetica Neue,Helvetica,sans-serif;
+  margin: 0;
+  text-anchor: end;
+  background-color: rgb(255, 255, 255);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+.titleBox{
+  display: grid;
+  height: 100%;
+
+}
+.TitleImg{
+   content:url(../Assets/Title.png);
+   max-width: 100%;
+   max-height: 100vh;
+   box-shadow: 5px 5px 18px #888888;
+   z-index: 5;
+
+}
+
+.FooterImg{
+
+   content:url(../Assets/FooterImg.png);
+   max-width: 100%;
+   max-height: 100vh;
+box-shadow: 4px 4px 18px #b8b8b8;
+}
+
+
+
+.grid-container {
+  border: 4 solid black;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: repeat(4, 1fr);
+  /* grid-template-rows: 100px,100px; */
+  /* clear: both; */
+}
+
+/* Create three equal columns that floats next to each other */
+.grid-item {
+  /* display: flex; */
+
+  /* align-items: center; */
+   /* display:table-cell; */
+  /* vertical-align:middle; */
+  text-align:center;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px ;
+  align-self: stretch;
+   /* float: right; */
+  /* width: 25%; */
+  padding: 20px;
+
+  /* margin-button: 20px; */
+  /* text-align:center; */
+
+  background-color: rgb(255, 255, 255);
+  /* height: 300px; /* Should be removed. Only for demonstration */ */
+}
+
+.grid-item :hover{
+  cursor: pointer;
+}
+/* Clear floats after the columns */
+/* .row:after {
+  display: grid;
+  grid-auto-columns: repeat(4,1fr);
+  grid-template-rows: 100px,100px;
+  clear: both;
+} */
+.GrapInfo{
+  display: flex;
+  width :20vw;
+  /* display: block; */
+  /* text-align: center; */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+}
+
+
+.detailPages{
+  /* display: block; */
+  position: sticky;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255,1);
+  /* height: 100%; */
+  /* margin-top: 200px; */
+  /* margin-left: -100px */
+  width:  100%;
+  /* position: fixed; */
+  z-index: -1;
+/* justify-content: center; */
+box-shadow: 5px 10px 18px #888888;
+}
+
+.hidden{
+/* display: fixed; */
+position: sticky;
+bottom: 0px;
+}
+
+
+.menu{
+  display: flex;
+  /* margin-left:  5%; */
+  /* width :20vw; */
+  /* display: block; */
+  /* text-align: center; */
+  justify-content: center;
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.71);
+
+
+}
+
+.menu button{
+  color:black;
+  /* margin-left: 5%; */
+  margin: 30px 20px;
+  width: 200px;
+  line-height: 30px;
+  background-color: rgba(255,255,255,.5);
+  border: none;
+  outline:none;
+  border-radius: 5px;
+transition: 1s;
+font-weight: bold;
+
+
+
+
+}
+
+
+.menu button:hover{
+  color:black;
+
+  background-color: rgba(227, 227, 227, 1)  !important;
+  border:  none;
+  border-radius: 15px;
+  cursor:pointer;
+
+
+}
+
+.onClass{
+background-color: rgba(255,0,0,1);
+
+}
+
+.describeArea{
+display: flex;
+
+}
+
+
+#dataSource{
+  /* position: absolute; */
+  /* margin-left: 10%; */
+    padding-top:  35px;
+  text-align: left;
+  /* margin-top: auto; */
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+    font-family: "Didot LT STD";
+
+    font-size:12px;
+
+}
+
+#metLogo{
+  background-color: none;
+  padding-top:  35px;
+  /* position: absolute; */
+   content:url(../Assets/metLogo.png);
+   max-width: 50px;
+   /* max-height: 50px; */
+     /* margin-top: 90vw; */
+      /* margin-top: auto; */
+        margin-bottom: auto;
+        margin-right: 80px;
+   /* max-height: 100vh; */
+/* box-shadow: 4px 4px 18px #b8b8b8; */
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .grid-container  {
+    /* width: 50%; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .GrapInfo{
+    /* display: flex; */
+    width :40vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .grid-container  {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .GrapInfo{
+    /* display: flex; */
+    width :80vw;
+  }
+}
+
+
+#mainDes P{
+
+font-family: "Didot LT STD";
+
+font-size:14px;
+}
+
+
+#subtitle{
+color:rgb(133, 133, 133);
+font-size:12px;
+/* display: block; */
+  position: relative;
+  margin-left:  5%;
+}
+#mainDes{
+  position: relative;
+  margin-left:  5%;
+  margin-top:  20px;
+  padding-bottom:  2%;
+  display: block;
+  background-color: white;
+  /* padding-top: -30px; */
+color:rgb(62, 62, 62);
+
+width: 50vw;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+
+}
+
+
+
+h2{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 40px;;
+
+}
+
+
+p{
+
+
+}
+
+
+.line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+.area {
+  fill: #e7e7e7;
+}
+
+#wrap{
+   width : 1380px;
+   margin :auto;
+
+
+}
+#timeline{
+  /* background-color: rgb(212, 212, 212); */
+  /* width : 100%; */
+  padding-top: 30px;
+  padding-bottom:  30px;
+  /* margin :auto; */
+/* display : absolute; */
+  height: 20px;
+  text-align: left;
+border-bottom: .5px solid grey;
+
+}
+
+#timeline p {
+/* position: absolute; */
+  font: 18px Helvetica;
+  font-style: italic;
+  /* top:20px; */
+  font-weight : bold ;
+  /* width: 345px; */
+  color: rgb(55, 52, 52);
+  display : inline;
+ /* margin-top: auto; */
+ /* margin-left: 160px; */
+
+
+}
+
+
+.vizGraph {
+  /* background-color: white; */
+  /* rgb(244, 242, 242) */
+ width : 1360px;
+ height: 350px;
+ display : inline-block;
+
+    /* align-items: center; */
+  /* float : right; */
+  /* position: absolute; */
+  /* right:50%;
+  left: 50%; */
+}
+
+.describe {
+  display : inline-block;
+    position: relative;
+    width : 100px;
+     height : 200px;
+    /*
+    right:10px; */
+    /* top: -100px; */
+    bottom: 40%;
+}
+
+.desP{
+/* width : 100px; */
+transform: rotate(90deg);
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ -o-transform: rotate(90deg);;
+font-size: 40px;
+font-weight : bold ;
+/* display : inline; */
+}
+
+
+
+.myfooter{
+    /* margin-bottom: 0px; */
+    padding: 1rem;
+    background-color: #ffffff;
+    text-align: left;
+    opacity:1;
+    /* display:inline; */
+    /* float: right; */
+    /* margin-top:auto; */
+    height: 10px;
+    font-size: 10px;
+}
+
+footer {
+  background-color:  white;
+  opacity: 1;
+  position:fixed;
+    bottom: 0px;
+    height: 40px;
+    left: 0;  right: 0;
+    /* position: absolute; */
+    width: 100%;
+    background-image: url(../Assets/FooterImg.png)
+}
+
+.citeNote{
+  margin-bottom: 20px;
+  margin-left: 20px;
+   color: black;
+    font-size: 12px;
+    width:350px;
+    /* display: inline-block ; */
+    float:left;
+text-align:left;
+
+
+
+}
+
+a {
+  color: rgb(55, 52, 52);
+   text-decoration: none;
+ }
+ a:hover{
+   color: #CF2D35;
+ text-decoration: none;
+
+ }
+
+ a:link:active, a:visited:active {
+ color: grey;
+}

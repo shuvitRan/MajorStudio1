@@ -107,6 +107,7 @@ function addObject(objectData){
     var classification = objectData.classification;
     var culture = objectData.culture;
     var medium = objectData.medium;
+    var metURL = objectData.objectURL;
     // var country = objectData.country;
 
     var index = myArray.length;
@@ -131,7 +132,8 @@ function addObject(objectData){
       // country :country,
       filename : objectData.primaryImage.split('/').pop(),
       classification: classification,
-      medium: medium
+      medium: medium,
+      metURL: metURL
     });
 
 }

@@ -5,7 +5,8 @@
   "culture": "China",
   "filename": "DP163984.jpg",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": true
 }, {
   "objIds": 38160,
   "date": 634,
@@ -13,7 +14,8 @@
   "culture": "Southern Cambodia",
   "filename": "LK.1993.477.3_DP310135r1_25F.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 75414,
   "date": 1700,
@@ -21,7 +23,8 @@
   "culture": "Sri Lanka, Kandy district",
   "filename": "DP219474.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding"
+  "medium": "Copper alloy with gilding",
+  "CV": true
 }, {
   "objIds": 38237,
   "date": 225,
@@ -29,7 +32,8 @@
   "culture": "South India (ancient Andhradesa, probably Nagarjunakonda)",
   "filename": "DP701399.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 38977,
   "date": 550,
@@ -37,7 +41,8 @@
   "culture": "Sri Lanka",
   "filename": "1982_21.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 646117,
   "date": 200,
@@ -45,7 +50,8 @@
   "culture": "Pakistan, Khyber-Pakhtunkhwa province, possibly Takht-i-bahi monastery, ancient region of Gandhara",
   "filename": "DP328363.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 38198,
   "date": 467,
@@ -53,7 +59,8 @@
   "culture": "India (Uttar Pradesh, Mathura)",
   "filename": "DT237.jpg",
   "classification": "Sculpture",
-  "medium": "Red sandstone"
+  "medium": "Red sandstone",
+  "CV": true
 }, {
   "objIds": 39197,
   "date": 900,
@@ -61,7 +68,8 @@
   "culture": "Sri Lanka, central plateau",
   "filename": "DT5223.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding"
+  "medium": "Copper alloy with gilding",
+  "CV": true
 }, {
   "objIds": 72381,
   "date": 1,
@@ -69,7 +77,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123364.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with traces of gold leaf"
+  "medium": "Bronze with traces of gold leaf",
+  "CV": true
 }, {
   "objIds": 38954,
   "date": 700,
@@ -77,7 +86,8 @@
   "culture": "Thailand (Nakhon Pathom Province)",
   "filename": "DP310136.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with traces of gilt"
+  "medium": "Bronze with traces of gilt",
+  "CV": "true"
 }, {
   "objIds": 63532,
   "date": 1400,
@@ -85,7 +95,8 @@
   "culture": "Thailand",
   "filename": "DP-15581-052.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 38940,
   "date": 700,
@@ -93,7 +104,8 @@
   "culture": "Bangladesh (probably Comilla District)",
   "filename": "DT246634.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38228,
   "date": 400,
@@ -101,7 +113,8 @@
   "culture": "Afghanistan (probably Hadda)",
   "filename": "DP264118.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with traces of paint"
+  "medium": "Stucco with traces of paint",
+  "CV": true
 }, {
   "objIds": 39635,
   "date": 1100,
@@ -109,7 +122,8 @@
   "culture": "China",
   "filename": "DP170123.jpg",
   "classification": "Sculpture",
-  "medium": "Mammoth ivory"
+  "medium": "Mammoth ivory",
+  "CV": true
 }, {
   "objIds": 42733,
   "date": 486,
@@ -117,7 +131,8 @@
   "culture": "China",
   "filename": "DP170102.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze with traces of pigment; piece-mold cast"
+  "medium": "Gilt bronze with traces of pigment; piece-mold cast",
+  "CV": true
 }, {
   "objIds": 42163,
   "date": 600,
@@ -125,7 +140,8 @@
   "culture": "China",
   "filename": "DP-15581-004.jpg",
   "classification": "Sculpture",
-  "medium": "Hollow dry lacquer with traces of gilt and polychrome pigment and gilding"
+  "medium": "Hollow dry lacquer with traces of gilt and polychrome pigment and gilding",
+  "CV": true
 }, {
   "objIds": 38165,
   "date": 600,
@@ -133,7 +149,8 @@
   "culture": "Thailand",
   "filename": "DP310111.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with traces of color"
+  "medium": "Stone with traces of color",
+  "CV": true
 }, {
   "objIds": 72301,
   "date": 1500,
@@ -141,7 +158,8 @@
   "culture": "Sri Lanka. western regions",
   "filename": "DP219472.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding"
+  "medium": "Copper alloy with gilding",
+  "CV": true
 }, {
   "objIds": 38169,
   "date": 700,
@@ -149,7 +167,8 @@
   "culture": "Thailand",
   "filename": "DP292908.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 76445,
   "date": 550,
@@ -157,7 +176,8 @@
   "culture": "Pakistan (Gilgit Kingdom)",
   "filename": "DP249856.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt brass with silver and copper inlay"
+  "medium": "Gilt brass with silver and copper inlay",
+  "CV": "true"
 }, {
   "objIds": 74832,
   "date": 767,
@@ -165,7 +185,8 @@
   "culture": "Sri Lanka (Anuradhapura)",
   "filename": "DP210601.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": true
 }, {
   "objIds": 38965,
   "date": 567,
@@ -173,7 +194,8 @@
   "culture": "India (probably Bihar)",
   "filename": "DP-15581-036.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": true
 }, {
   "objIds": 38285,
   "date": 950,
@@ -181,7 +203,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_13.jpg",
   "classification": "Sculpture",
-  "medium": "Buddha: silver;  pedestal and throne back: bronze"
+  "medium": "Buddha: silver;  pedestal and throne back: bronze",
+  "CV": "false"
 }, {
   "objIds": 44084,
   "date": 1900,
@@ -189,7 +212,8 @@
   "culture": "China",
   "filename": "1993_480_5_O1_sf.jpg",
   "classification": "Sculpture",
-  "medium": "Rock crystal"
+  "medium": "Rock crystal",
+  "CV": "false"
 }, {
   "objIds": 39308,
   "date": 1400,
@@ -197,7 +221,8 @@
   "culture": "Thailand",
   "filename": "15_123_5.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 57574,
   "date": 800,
@@ -205,7 +230,8 @@
   "culture": "Korea",
   "filename": "17_118_50_36908.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 57572,
   "date": 550,
@@ -213,7 +239,8 @@
   "culture": "Korea",
   "filename": "17_118_48_36906.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39339,
   "date": 600,
@@ -221,7 +248,8 @@
   "culture": "India (Kashmir region)",
   "filename": "DP223429.jpg",
   "classification": "Sculpture",
-  "medium": "Brass inlaid with copper and silver"
+  "medium": "Brass inlaid with copper and silver",
+  "CV": true
 }, {
   "objIds": 57373,
   "date": 600,
@@ -229,7 +257,8 @@
   "culture": "Korea",
   "filename": "17_118_54.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39756,
   "date": 680,
@@ -237,7 +266,8 @@
   "culture": "China",
   "filename": "DP164053.jpg",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": true
 }, {
   "objIds": 61773,
   "date": 717,
@@ -245,7 +275,8 @@
   "culture": "China",
   "filename": "DP170230.jpg",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": "false"
 }, {
   "objIds": 75202,
   "date": 850,
@@ -253,7 +284,8 @@
   "culture": "Tibet",
   "filename": "DP206697.jpg",
   "classification": "Sculpture",
-  "medium": "Fired clay, molded and polychromed"
+  "medium": "Fired clay, molded and polychromed",
+  "CV": "false"
 }, {
   "objIds": 39199,
   "date": 700,
@@ -261,7 +293,8 @@
   "culture": "Central or northeastern Thailand",
   "filename": "LK.1993.387.6_DP309913r2_25H.jpg",
   "classification": "Sculpture",
-  "medium": "Silver alloy"
+  "medium": "Silver alloy",
+  "CV": true
 }, {
   "objIds": 57571,
   "date": 800,
@@ -269,7 +302,8 @@
   "culture": "Korea",
   "filename": "17_118_47_36905.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 42162,
   "date": 524,
@@ -277,7 +311,8 @@
   "culture": "China",
   "filename": "DP217575.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 38994,
   "date": 750,
@@ -285,7 +320,8 @@
   "culture": "Sumatra or southern Thailand",
   "filename": "LK.1984.386.4_DP303951R1_25U.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": true
 }, {
   "objIds": 39345,
   "date": 9,
@@ -293,7 +329,8 @@
   "culture": "India, Ancient kingdom of Kashmir",
   "filename": "DT229537.jpg",
   "classification": "Sculpture",
-  "medium": "Brass"
+  "medium": "Brass",
+  "CV": true
 }, {
   "objIds": 39116,
   "date": 950,
@@ -301,7 +338,8 @@
   "culture": "Burma",
   "filename": "1986_501_7.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38951,
   "date": 700,
@@ -309,7 +347,8 @@
   "culture": "Northeastern Thailand",
   "filename": "LK.1982.220.5_DP310130R2_25U.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy inlaid with silver and glass or obsidian"
+  "medium": "Copper alloy inlaid with silver and glass or obsidian",
+  "CV": "true"
 }, {
   "objIds": 39189,
   "date": 900,
@@ -317,7 +356,8 @@
   "culture": "India (Bihar)",
   "filename": "16 NEW DP314094r4_61E.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze inlaid with silver, lapis lazuli, and rock crystal"
+  "medium": "Bronze inlaid with silver, lapis lazuli, and rock crystal",
+  "CV": "false"
 }, {
   "objIds": 78191,
   "date": 1100,
@@ -325,7 +365,8 @@
   "culture": "Central Tibet",
   "filename": "DP-15581-015.jpg",
   "classification": "Sculpture",
-  "medium": "Brass with colored pigments"
+  "medium": "Brass with colored pigments",
+  "CV": true
 }, {
   "objIds": 38987,
   "date": 700,
@@ -333,7 +374,8 @@
   "culture": "India (Jammu & Kashmir, ancient kingdom of Kashmir) or Pakistan",
   "filename": "DT5713.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": "false"
 }, {
   "objIds": 53474,
   "date": 524,
@@ -341,7 +383,8 @@
   "culture": "China",
   "filename": "DP217570.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 54080,
   "date": 700,
@@ -349,7 +392,8 @@
   "culture": "China",
   "filename": "DP170158.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 39102,
   "date": 1200,
@@ -357,7 +401,8 @@
   "culture": "Thailand",
   "filename": "264782.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 73150,
   "date": 700,
@@ -365,7 +410,8 @@
   "culture": "Burma",
   "filename": "DP309921.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38318,
   "date": 1200,
@@ -373,7 +419,8 @@
   "culture": "Burma",
   "filename": "1986_207.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer and gilt"
+  "medium": "Wood with lacquer and gilt",
+  "CV": true
 }, {
   "objIds": 38157,
   "date": 600,
@@ -381,7 +428,8 @@
   "culture": "Cambodia or Vietnam",
   "filename": "DP291181.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 38320,
   "date": 1200,
@@ -389,7 +437,8 @@
   "culture": "Burma",
   "filename": "1986_334.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with traces of lacquer and polychrome"
+  "medium": "Stucco with traces of lacquer and polychrome",
+  "CV": "false"
 }, {
   "objIds": 39112,
   "date": 1471,
@@ -397,7 +446,8 @@
   "culture": "Thailand",
   "filename": "DT8728.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 39158,
   "date": 1000,
@@ -405,7 +455,8 @@
   "culture": "Thailand, Haripunjaya style",
   "filename": "1986_490_1.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 39186,
   "date": 600,
@@ -413,7 +464,8 @@
   "culture": "Indonesia (Kalimantan)",
   "filename": "DT6987.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 61686,
   "date": 1411,
@@ -421,7 +473,8 @@
   "culture": "China",
   "filename": "DP164018.jpg",
   "classification": "Sculpture",
-  "medium": "Lacquered and gilded wood"
+  "medium": "Lacquered and gilded wood",
+  "CV": "false"
 }, {
   "objIds": 39107,
   "date": 1200,
@@ -429,7 +482,8 @@
   "culture": "Thailand",
   "filename": "1980_526_1_224099.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39142,
   "date": 571,
@@ -437,7 +491,8 @@
   "culture": "India",
   "filename": "DT5712.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver and copper inlay"
+  "medium": "Bronze with silver and copper inlay",
+  "CV": true
 }, {
   "objIds": 39175,
   "date": 1400,
@@ -445,7 +500,8 @@
   "culture": "Thailand",
   "filename": "DT6772.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 38980,
   "date": 600,
@@ -453,7 +509,8 @@
   "culture": "India (Jammu and Kashmir)  or Pakistan (Swat Valley)",
   "filename": "DP267820.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze inlaid with silver"
+  "medium": "Bronze inlaid with silver",
+  "CV": true
 }, {
   "objIds": 42719,
   "date": 489,
@@ -461,7 +518,8 @@
   "culture": "China",
   "filename": "DP164037.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone with traces of pigment"
+  "medium": "Sandstone with traces of pigment",
+  "CV": true
 }, {
   "objIds": 38955,
   "date": 600,
@@ -469,7 +527,8 @@
   "culture": "Burma",
   "filename": "68_116.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38646,
   "date": 1000,
@@ -477,7 +536,8 @@
   "culture": "Tibet",
   "filename": "DT3859.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt copper"
+  "medium": "Gilt copper",
+  "CV": true
 }, {
   "objIds": 73158,
   "date": 600,
@@ -485,7 +545,8 @@
   "culture": "Southern Cambodia",
   "filename": "LK.2005.512_DP123319r1_25F.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 38332,
   "date": 1600,
@@ -493,7 +554,8 @@
   "culture": "Tibet or Mongolia",
   "filename": "DP170265.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt copper alloy"
+  "medium": "Gilt copper alloy",
+  "CV": true
 }, {
   "objIds": 73200,
   "date": 1000,
@@ -501,7 +563,8 @@
   "culture": "China",
   "filename": "DP170259.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze; lost-wax cast"
+  "medium": "Gilt bronze; lost-wax cast",
+  "CV": true
 }, {
   "objIds": 38104,
   "date": 400,
@@ -509,7 +572,8 @@
   "culture": "Afghanistan (probably Hadda)",
   "filename": "DP123392.jpg",
   "classification": "Sculpture",
-  "medium": "Clay with inset garnet eyes"
+  "medium": "Clay with inset garnet eyes",
+  "CV": true
 }, {
   "objIds": 38647,
   "date": 800,
@@ -517,7 +581,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1995_256.jpg",
   "classification": "Sculpture",
-  "medium": "Andesite"
+  "medium": "Andesite",
+  "CV": "false"
 }, {
   "objIds": 38777,
   "date": 250,
@@ -525,7 +590,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123377.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with traces of paint"
+  "medium": "Stucco with traces of paint",
+  "CV": true
 }, {
   "objIds": 49523,
   "date": 1400,
@@ -533,7 +599,8 @@
   "culture": "China",
   "filename": "DP170192.jpg",
   "classification": "Sculpture",
-  "medium": "Cast iron"
+  "medium": "Cast iron",
+  "CV": true
 }, {
   "objIds": 38998,
   "date": 800,
@@ -541,7 +608,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DT8668.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38928,
   "date": 871,
@@ -549,7 +617,8 @@
   "culture": "India (Bihar)",
   "filename": "1987_142_337_F_sf.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": "false"
 }, {
   "objIds": 61761,
   "date": 1279,
@@ -557,7 +626,8 @@
   "culture": "China",
   "filename": "DP228203.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 38168,
   "date": 800,
@@ -565,7 +635,8 @@
   "culture": "Thailand (Ratchaburi Province)",
   "filename": "DP292911.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": true
 }, {
   "objIds": 38788,
   "date": 150,
@@ -573,7 +644,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP-15581-001.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 75413,
   "date": 1436,
@@ -581,7 +653,8 @@
   "culture": "Sri Lanka. western regions",
   "filename": "DP219479.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding"
+  "medium": "Copper alloy with gilding",
+  "CV": true
 }, {
   "objIds": 38119,
   "date": 200,
@@ -589,7 +662,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123373.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }, {
   "objIds": 38267,
   "date": 800,
@@ -597,7 +671,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DP-15581-044.jpg",
   "classification": "Sculpture",
-  "medium": "Andesite"
+  "medium": "Andesite",
+  "CV": true
 }, {
   "objIds": 38232,
   "date": 300,
@@ -605,7 +680,8 @@
   "culture": "Pakistan (ancient region of Gandhara) or Afghanistan",
   "filename": "264797_1985.388.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 38604,
   "date": 600,
@@ -613,7 +689,8 @@
   "culture": "Thailand",
   "filename": "1993_299.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "true"
 }, {
   "objIds": 38447,
   "date": 910,
@@ -621,7 +698,8 @@
   "culture": "Cambodia",
   "filename": "1983_551_232391.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 42704,
   "date": 555,
@@ -629,7 +707,8 @@
   "culture": "China (Southern Xiangtangshan)",
   "filename": "DP170271.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with pigment"
+  "medium": "Limestone with pigment",
+  "CV": true
 }, {
   "objIds": 38172,
   "date": 700,
@@ -637,7 +716,8 @@
   "culture": "Thailand",
   "filename": "1985_13_1.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 38497,
   "date": 1000,
@@ -645,7 +725,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "1991_133_256448.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt-copper alloy with gold paint and blue pigment"
+  "medium": "Gilt-copper alloy with gold paint and blue pigment",
+  "CV": "false"
 }, {
   "objIds": 38286,
   "date": 950,
@@ -653,7 +734,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DT8663.jpg",
   "classification": "Sculpture",
-  "medium": "Silver"
+  "medium": "Silver",
+  "CV": true
 }, {
   "objIds": 61650,
   "date": 540,
@@ -661,7 +743,8 @@
   "culture": "China (Northern Xiangtangshan, North Cave)",
   "filename": "DP170109.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with pigment and gilding"
+  "medium": "Limestone with pigment and gilding",
+  "CV": "false"
 }, {
   "objIds": 39020,
   "date": 871,
@@ -669,7 +752,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DT5232.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38931,
   "date": 1000,
@@ -677,7 +761,8 @@
   "culture": "India (Bihar)",
   "filename": "1987_142_319_O.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver and copper inlay"
+  "medium": "Bronze with silver and copper inlay",
+  "CV": "false"
 }, {
   "objIds": 38528,
   "date": 1100,
@@ -685,7 +770,8 @@
   "culture": "Burma",
   "filename": "DP325739.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with traces of red lacquer, gesso and gold leaf"
+  "medium": "Wood with traces of red lacquer, gesso and gold leaf",
+  "CV": true
 }, {
   "objIds": 653244,
   "date": 1100,
@@ -693,7 +779,8 @@
   "culture": "China",
   "filename": "DP170125.jpg",
   "classification": "Sculpture",
-  "medium": "Mammoth ivory"
+  "medium": "Mammoth ivory",
+  "CV": true
 }, {
   "objIds": 72384,
   "date": 1900,
@@ -701,7 +788,8 @@
   "culture": "India",
   "filename": "271785.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38986,
   "date": 800,
@@ -709,7 +797,8 @@
   "culture": "Pakistan (possibly Gilgit region)",
   "filename": "DT5714.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": "true"
 }, {
   "objIds": 38990,
   "date": 800,
@@ -717,7 +806,8 @@
   "culture": "Pakistan (Northwest Frontier Province, Swat Valley)",
   "filename": "DT2637.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver and copper overlays"
+  "medium": "Bronze with silver and copper overlays",
+  "CV": "true"
 }, {
   "objIds": 38452,
   "date": 200,
@@ -725,7 +815,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123361.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 39165,
   "date": 571,
@@ -733,7 +824,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DT5225.jpg",
   "classification": "Sculpture",
-  "medium": "Brass"
+  "medium": "Brass",
+  "CV": "false"
 }, {
   "objIds": 38640,
   "date": 600,
@@ -741,7 +833,8 @@
   "culture": "Pakistan (Swat Valley)",
   "filename": "1995_570_2.jpg",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": "false"
 }, {
   "objIds": 39358,
   "date": 1100,
@@ -749,7 +842,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "1979_506_226234.jpg",
   "classification": "Sculpture",
-  "medium": "Copper with gold paint"
+  "medium": "Copper with gold paint",
+  "CV": "true"
 }, {
   "objIds": 36038,
   "date": 400,
@@ -757,7 +851,8 @@
   "culture": "China (Xinjiang Autonomous Region, Turfan area)",
   "filename": "DP170106.jpg",
   "classification": "Sculpture",
-  "medium": "Juniper wood with traces of color and gold"
+  "medium": "Juniper wood with traces of color and gold",
+  "CV": true
 }, {
   "objIds": 38451,
   "date": 1167,
@@ -765,7 +860,8 @@
   "culture": "Cambodia",
   "filename": "36_96_5_F.JPG",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 38278,
   "date": 800,
@@ -773,7 +869,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1983_509_2.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 38258,
   "date": 967,
@@ -781,7 +878,8 @@
   "culture": "Western Tibet",
   "filename": "DT5259.jpg",
   "classification": "Sculpture",
-  "medium": "Silver and bronze with copper inlay and traces of gold foil"
+  "medium": "Silver and bronze with copper inlay and traces of gold foil",
+  "CV": "true"
 }, {
   "objIds": 39115,
   "date": 1100,
@@ -789,7 +887,8 @@
   "culture": "Burma",
   "filename": "1989_253.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with traces of gilt and lacquer"
+  "medium": "Bronze with traces of gilt and lacquer",
+  "CV": "true"
 }, {
   "objIds": 38164,
   "date": 600,
@@ -797,7 +896,8 @@
   "culture": "Thailand",
   "filename": "1980_529_2.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 42709,
   "date": 534,
@@ -805,7 +905,8 @@
   "culture": "China",
   "filename": "DP170196.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": true
 }, {
   "objIds": 38523,
   "date": 600,
@@ -813,7 +914,8 @@
   "culture": "Thailand (Buriram province, probably Prakhon Chai)",
   "filename": "1991_243.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta with traces of red lacquer(?)"
+  "medium": "Terracotta with traces of red lacquer(?)",
+  "CV": "false"
 }, {
   "objIds": 64116,
   "date": 550,
@@ -821,7 +923,8 @@
   "culture": "Thailand",
   "filename": "DP288809.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38123,
   "date": 1000,
@@ -829,7 +932,8 @@
   "culture": "India (Bihar, probably Nalanda)",
   "filename": "4 DP314867r4_61A.jpg",
   "classification": "Sculpture",
-  "medium": "Black stone"
+  "medium": "Black stone",
+  "CV": "true"
 }, {
   "objIds": 38615,
   "date": 900,
@@ -837,7 +941,8 @@
   "culture": "India, Bihar, possibly from Nalanda",
   "filename": "11r1_61B.jpg",
   "classification": "Sculpture",
-  "medium": "Black schist with traces of gilding"
+  "medium": "Black schist with traces of gilding",
+  "CV": "false"
 }, {
   "objIds": 39024,
   "date": 900,
@@ -845,7 +950,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DP274274.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39489,
   "date": 967,
@@ -853,7 +959,8 @@
   "culture": "India (Bihar)",
   "filename": "DP158746.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 38358,
   "date": 700,
@@ -861,7 +968,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "1989_294.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 38239,
   "date": 200,
@@ -869,7 +977,8 @@
   "culture": "India (Andhra Pradesh, Nagarjunakonda)",
   "filename": "ASA390.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 64117,
   "date": 550,
@@ -877,7 +986,8 @@
   "culture": "Thailand",
   "filename": "DP288810.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38245,
   "date": 850,
@@ -885,7 +995,8 @@
   "culture": "India (Jammu & Kashmir, ancient kingdom of Kashmir) or Pakistan",
   "filename": "DT5256.jpg",
   "classification": "Sculpture",
-  "medium": "Bone with traces of color and gold paint"
+  "medium": "Bone with traces of color and gold paint",
+  "CV": "false"
 }, {
   "objIds": 39035,
   "date": 867,
@@ -893,7 +1004,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_156.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38128,
   "date": 800,
@@ -901,7 +1013,8 @@
   "culture": "India (Bihar)",
   "filename": "33_50_10_F_sf.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 39021,
   "date": 800,
@@ -909,7 +1022,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DT8665.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39093,
   "date": 600,
@@ -917,7 +1031,8 @@
   "culture": "Thailand (near the Korat plateau)",
   "filename": "DP291170.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38224,
   "date": 400,
@@ -925,7 +1040,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP138060.jpg",
   "classification": "Sculpture",
-  "medium": "Phyllitic schist"
+  "medium": "Phyllitic schist",
+  "CV": "false"
 }, {
   "objIds": 38474,
   "date": 200,
@@ -933,7 +1049,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123372.jpg",
   "classification": "Sculpture",
-  "medium": "Gray schist"
+  "medium": "Gray schist",
+  "CV": true
 }, {
   "objIds": 38328,
   "date": 1000,
@@ -941,7 +1058,8 @@
   "culture": "Nepal",
   "filename": "DT244.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding and color"
+  "medium": "Copper alloy with gilding and color",
+  "CV": true
 }, {
   "objIds": 38230,
   "date": 200,
@@ -949,7 +1067,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "1984_486_6_238172.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 39180,
   "date": 700,
@@ -957,7 +1076,8 @@
   "culture": "Thailand",
   "filename": "1992_99.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38820,
   "date": 200,
@@ -965,7 +1085,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123367.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 39980,
   "date": 500,
@@ -973,7 +1094,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP269542.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 78429,
   "date": 1923,
@@ -981,7 +1103,8 @@
   "culture": "Cambodia (probably Phnom Penh)",
   "filename": "DP702336.jpg",
   "classification": "Sculpture",
-  "medium": "Silver, gold, and unfired clay"
+  "medium": "Silver, gold, and unfired clay",
+  "CV": true
 }, {
   "objIds": 39032,
   "date": 800,
@@ -989,7 +1112,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1978_394_2.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38873,
   "date": 1450,
@@ -997,7 +1121,8 @@
   "culture": "Cambodia",
   "filename": "85_11_1.JPG",
   "classification": "Sculpture",
-  "medium": "Silver"
+  "medium": "Silver",
+  "CV": true
 }, {
   "objIds": 38875,
   "date": 1450,
@@ -1005,7 +1130,8 @@
   "culture": "Cambodia",
   "filename": "85_11_3_F.jpg",
   "classification": "Sculpture",
-  "medium": "Silver with gilt and lacquer"
+  "medium": "Silver with gilt and lacquer",
+  "CV": "false"
 }, {
   "objIds": 38997,
   "date": 800,
@@ -1013,7 +1139,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_216.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38485,
   "date": 1550,
@@ -1021,7 +1148,8 @@
   "culture": "Thailand",
   "filename": "1989_366_F.jpg",
   "classification": "Sculpture",
-  "medium": "Ivory"
+  "medium": "Ivory",
+  "CV": true
 }, {
   "objIds": 39019,
   "date": 800,
@@ -1029,7 +1157,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_159.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 61627,
   "date": 1400,
@@ -1037,7 +1166,8 @@
   "culture": "China",
   "filename": "DP163993.jpg",
   "classification": "Sculpture",
-  "medium": "Linden wood with traces of pigment"
+  "medium": "Linden wood with traces of pigment",
+  "CV": true
 }, {
   "objIds": 72382,
   "date": 567,
@@ -1045,7 +1175,8 @@
   "culture": "Pakistan (ancient region of Gandhara) or Afghanistan",
   "filename": "DT5648.jpg",
   "classification": "Sculpture",
-  "medium": "Brass"
+  "medium": "Brass",
+  "CV": true
 }, {
   "objIds": 42586,
   "date": 900,
@@ -1053,7 +1184,8 @@
   "culture": "Japan",
   "filename": "1975_268_153_F1_sf.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 38890,
   "date": 800,
@@ -1061,7 +1193,8 @@
   "culture": "Cambodia",
   "filename": "28_33.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 39886,
   "date": 700,
@@ -1069,7 +1202,8 @@
   "culture": "Korea",
   "filename": "DT5222.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39306,
   "date": 1400,
@@ -1077,7 +1211,8 @@
   "culture": "Thailand",
   "filename": "15_123_1.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 61702,
   "date": 1700,
@@ -1085,7 +1220,8 @@
   "culture": "China",
   "filename": "47_130_F.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 51304,
   "date": 700,
@@ -1093,7 +1229,8 @@
   "culture": "Korea",
   "filename": "DP253260.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39018,
   "date": 800,
@@ -1101,7 +1238,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_158.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39149,
   "date": 1500,
@@ -1109,7 +1247,8 @@
   "culture": "Thailand",
   "filename": "67_133_187435.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38874,
   "date": 1450,
@@ -1117,7 +1256,8 @@
   "culture": "Cambodia",
   "filename": "85_11_2.JPG",
   "classification": "Sculpture",
-  "medium": "Silver"
+  "medium": "Silver",
+  "CV": "false"
 }, {
   "objIds": 39101,
   "date": 1100,
@@ -1125,7 +1265,8 @@
   "culture": "Cambodia",
   "filename": "42_25_25.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 39217,
   "date": 600,
@@ -1133,7 +1274,8 @@
   "culture": "Pakistan",
   "filename": "1987_142_342.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 72393,
   "date": 700,
@@ -1141,7 +1283,8 @@
   "culture": "Thailand",
   "filename": "2004_142_1_F_STR1.jpg",
   "classification": "Sculpture",
-  "medium": "Silver"
+  "medium": "Silver",
+  "CV": "false"
 }, {
   "objIds": 72394,
   "date": 700,
@@ -1149,7 +1292,8 @@
   "culture": "Korea",
   "filename": "2004_142_2ab_F2.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39233,
   "date": 650,
@@ -1157,7 +1301,8 @@
   "culture": "Cambodia",
   "filename": "1987_142_74_244940.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38827,
   "date": 1500,
@@ -1165,7 +1310,8 @@
   "culture": "Tibet",
   "filename": "30_76_110_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed pottery"
+  "medium": "Unglazed pottery",
+  "CV": true
 }, {
   "objIds": 38831,
   "date": 598,
@@ -1173,7 +1319,8 @@
   "culture": "Tibet",
   "filename": "30_76_139_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed pottery"
+  "medium": "Unglazed pottery",
+  "CV": "false"
 }, {
   "objIds": 38830,
   "date": 1500,
@@ -1181,7 +1328,8 @@
   "culture": "Tibet",
   "filename": "30_76_135_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed pottery"
+  "medium": "Unglazed pottery",
+  "CV": "false"
 }, {
   "objIds": 38983,
   "date": 800,
@@ -1189,7 +1337,8 @@
   "culture": "Pakistan (NW Frontier Province, probably Swat Valley)",
   "filename": "42_25_20_199113_Post-Con.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": "false"
 }, {
   "objIds": 38828,
   "date": 1500,
@@ -1197,7 +1346,8 @@
   "culture": "Tibet",
   "filename": "30_76_113_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed pottery"
+  "medium": "Unglazed pottery",
+  "CV": "false"
 }, {
   "objIds": 38906,
   "date": 1750,
@@ -1205,7 +1355,8 @@
   "culture": "Thailand",
   "filename": "85_11_6.JPG",
   "classification": "Sculpture",
-  "medium": "Wood with gilt"
+  "medium": "Wood with gilt",
+  "CV": true
 }, {
   "objIds": 38166,
   "date": 650,
@@ -1213,7 +1364,8 @@
   "culture": "Thailand",
   "filename": "1978_538_215773.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "true"
 }, {
   "objIds": 38340,
   "date": 1300,
@@ -1221,7 +1373,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "1982_462_7_230687.jpg",
   "classification": "Sculpture",
-  "medium": "Repousse copper inlaid with semi-precious stones"
+  "medium": "Repousse copper inlaid with semi-precious stones",
+  "CV": true
 }, {
   "objIds": 52095,
   "date": 918,
@@ -1229,7 +1382,8 @@
   "culture": "Korea",
   "filename": "DT8302.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 37409,
   "date": 700,
@@ -1237,7 +1391,8 @@
   "culture": "Thailand (Si Thep)",
   "filename": "1983_554_3_234890.jpg",
   "classification": "Sculpture",
-  "medium": "Chalk with gold leaf"
+  "medium": "Chalk with gold leaf",
+  "CV": "false"
 }, {
   "objIds": 39174,
   "date": 1050,
@@ -1245,7 +1400,8 @@
   "culture": "Sri Lanka",
   "filename": "1991_458_4.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38886,
   "date": 1700,
@@ -1253,7 +1409,8 @@
   "culture": "Cambodia",
   "filename": "85_11_16.JPG",
   "classification": "Sculpture",
-  "medium": "Wood and gilt"
+  "medium": "Wood and gilt",
+  "CV": "false"
 }, {
   "objIds": 39171,
   "date": 750,
@@ -1261,7 +1418,8 @@
   "culture": "Sri Lanka",
   "filename": "1991_458_1.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 39188,
   "date": 1100,
@@ -1269,7 +1427,8 @@
   "culture": "Burma",
   "filename": "DP100686.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": "false"
 }, {
   "objIds": 39017,
   "date": 800,
@@ -1277,7 +1436,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_200.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38073,
   "date": 400,
@@ -1285,7 +1445,8 @@
   "culture": "India (Uttar Pradesh)",
   "filename": "DT6897.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": "true"
 }, {
   "objIds": 38932,
   "date": 767,
@@ -1293,7 +1454,8 @@
   "culture": "India",
   "filename": "1982_462_3.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38877,
   "date": 1800,
@@ -1301,7 +1463,8 @@
   "culture": "Cambodia",
   "filename": "85_11_5.JPG",
   "classification": "Sculpture",
-  "medium": "Wood and gilt"
+  "medium": "Wood and gilt",
+  "CV": "false"
 }, {
   "objIds": 38885,
   "date": 1800,
@@ -1309,7 +1472,8 @@
   "culture": "Cambodia",
   "filename": "85_11_15.JPG",
   "classification": "Sculpture",
-  "medium": "Wood"
+  "medium": "Wood",
+  "CV": "false"
 }, {
   "objIds": 38883,
   "date": 1700,
@@ -1317,7 +1481,8 @@
   "culture": "Cambodia",
   "filename": "85_11_13.JPG",
   "classification": "Sculpture",
-  "medium": "Alabaster"
+  "medium": "Alabaster",
+  "CV": true
 }, {
   "objIds": 38948,
   "date": 600,
@@ -1325,7 +1490,8 @@
   "culture": "Cambodia",
   "filename": "1981_462_2_227589.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38956,
   "date": 800,
@@ -1333,7 +1499,8 @@
   "culture": "Thailand",
   "filename": "1981_462_1_227588.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38972,
   "date": 671,
@@ -1341,7 +1508,8 @@
   "culture": "Sri Lanka",
   "filename": "1987_142_63.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with traces of gilt"
+  "medium": "Bronze with traces of gilt",
+  "CV": "false"
 }, {
   "objIds": 38973,
   "date": 671,
@@ -1349,7 +1517,8 @@
   "culture": "Sri Lanka",
   "filename": "1987_142_64_O.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38920,
   "date": 1600,
@@ -1357,7 +1526,8 @@
   "culture": "Thailand",
   "filename": "61_209_5.JPG",
   "classification": "Sculpture",
-  "medium": "Gold"
+  "medium": "Gold",
+  "CV": "false"
 }, {
   "objIds": 57578,
   "date": 800,
@@ -1365,7 +1535,8 @@
   "culture": "Korea",
   "filename": "DP268780.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 57371,
   "date": 650,
@@ -1373,7 +1544,8 @@
   "culture": "Korea",
   "filename": "1976_399.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 38938,
   "date": 1000,
@@ -1381,7 +1553,8 @@
   "culture": "India (Kurkihar)",
   "filename": "1987_142_364.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39981,
   "date": 500,
@@ -1389,7 +1562,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "30_32_39.JPG",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 38999,
   "date": 800,
@@ -1397,7 +1571,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_217.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38957,
   "date": 700,
@@ -1405,7 +1580,8 @@
   "culture": "Thailand",
   "filename": "1984_484_3_237929.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 61823,
   "date": 618,
@@ -1413,7 +1589,8 @@
   "culture": "China",
   "filename": "1977_187_40.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 57374,
   "date": 668,
@@ -1421,7 +1598,8 @@
   "culture": "Korea",
   "filename": "17_118_55_F.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 39607,
   "date": 1199,
@@ -1429,7 +1607,8 @@
   "culture": "India (Tamil Nadu, Nagapattinam)",
   "filename": "1996_474_F.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": "false"
 }, {
   "objIds": 38372,
   "date": 150,
@@ -1437,7 +1616,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123371.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 42711,
   "date": 460,
@@ -1445,7 +1625,8 @@
   "culture": "China",
   "filename": "DP170134.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone with traces of pigment"
+  "medium": "Sandstone with traces of pigment",
+  "CV": true
 }, {
   "objIds": 38223,
   "date": 400,
@@ -1453,7 +1634,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "1987_142_51_DP123388.jpg",
   "classification": "Sculpture",
-  "medium": "Phyllitic schist"
+  "medium": "Phyllitic schist",
+  "CV": true
 }, {
   "objIds": 38201,
   "date": 467,
@@ -1461,7 +1643,8 @@
   "culture": "India (Uttar Pradesh, Mathura)",
   "filename": "DP267823.jpg",
   "classification": "Sculpture",
-  "medium": "Red sandstone"
+  "medium": "Red sandstone",
+  "CV": true
 }, {
   "objIds": 75586,
   "date": 1800,
@@ -1469,7 +1652,8 @@
   "culture": "Sri Lanka, Kandy district",
   "filename": "DP240203.jpg",
   "classification": "Sculpture",
-  "medium": "Ivory with engraved and painted design"
+  "medium": "Ivory with engraved and painted design",
+  "CV": true
 }, {
   "objIds": 42725,
   "date": 967,
@@ -1477,7 +1661,8 @@
   "culture": "China",
   "filename": "DP163998.jpg",
   "classification": "Sculpture",
-  "medium": "Wood (foxglove) with pigments, gilding, quartz and carnelian; single woodblock construction"
+  "medium": "Wood (foxglove) with pigments, gilding, quartz and carnelian; single woodblock construction",
+  "CV": true
 }, {
   "objIds": 705432,
   "date": 550,
@@ -1485,7 +1670,8 @@
   "culture": "Thailand (Mon-Dvaravati)",
   "filename": "DP-590-001.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": "false"
 }, {
   "objIds": 75408,
   "date": 1700,
@@ -1493,7 +1679,8 @@
   "culture": "Sri Lanka, Kandy district",
   "filename": "L_2010_475_5_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Ivory with polychrome"
+  "medium": "Ivory with polychrome",
+  "CV": true
 }, {
   "objIds": 73597,
   "date": 1000,
@@ -1501,7 +1688,8 @@
   "culture": "India (Madhya Pradesh or Bihar)",
   "filename": "DP159413.jpg",
   "classification": "Sculpture",
-  "medium": "Black stone"
+  "medium": "Black stone",
+  "CV": "false"
 }, {
   "objIds": 39023,
   "date": 800,
@@ -1509,7 +1697,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1987_142_222_244878.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 61656,
   "date": 1100,
@@ -1517,7 +1706,8 @@
   "culture": "China",
   "filename": "DP163997.jpg",
   "classification": "Sculpture",
-  "medium": "Willow wood with pigment"
+  "medium": "Willow wood with pigment",
+  "CV": true
 }, {
   "objIds": 39976,
   "date": 500,
@@ -1525,7 +1715,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP271340.jpg",
   "classification": "Sculpture",
-  "medium": "Red clay with traces of color"
+  "medium": "Red clay with traces of color",
+  "CV": "false"
 }, {
   "objIds": 38796,
   "date": 100,
@@ -1533,7 +1724,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP138050.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 62375,
   "date": 794,
@@ -1541,7 +1733,8 @@
   "culture": "Japan",
   "filename": "1975_268_152_211812.jpg",
   "classification": "Sculpture",
-  "medium": "Fragment of a wooden sculpture"
+  "medium": "Fragment of a wooden sculpture",
+  "CV": "false"
 }, {
   "objIds": 72392,
   "date": 1000,
@@ -1549,7 +1742,8 @@
   "culture": "India (Tamil Nadu, Nagapattinam)",
   "filename": "DT5658.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": true
 }, {
   "objIds": 39904,
   "date": 500,
@@ -1557,7 +1751,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP272010.jpg",
   "classification": "Sculpture",
-  "medium": "Red clay with traces of color"
+  "medium": "Red clay with traces of color",
+  "CV": true
 }, {
   "objIds": 705433,
   "date": 300,
@@ -1565,7 +1760,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP702356.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38457,
   "date": 1500,
@@ -1573,7 +1769,8 @@
   "culture": "Thailand",
   "filename": "26_116_63691.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 38740,
   "date": 99,
@@ -1581,7 +1778,8 @@
   "culture": "India",
   "filename": "29_68_1.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 38876,
   "date": 1800,
@@ -1589,7 +1787,8 @@
   "culture": "Cambodia",
   "filename": "85_11_4.JPG",
   "classification": "Sculpture",
-  "medium": "Clay"
+  "medium": "Clay",
+  "CV": "false"
 }, {
   "objIds": 38728,
   "date": -99,
@@ -1597,7 +1796,8 @@
   "culture": "India",
   "filename": "28_97_2.JPG",
   "classification": "Sculpture",
-  "medium": "Red sandstone"
+  "medium": "Red sandstone",
+  "CV": "false"
 }, {
   "objIds": 39274,
   "date": 750,
@@ -1605,7 +1805,8 @@
   "culture": "Cambodia",
   "filename": "85_11_18.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38272,
   "date": 800,
@@ -1613,7 +1814,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1982_220_4.JPG",
   "classification": "Sculpture",
-  "medium": "Andesite"
+  "medium": "Andesite",
+  "CV": "false"
 }, {
   "objIds": 39110,
   "date": 1300,
@@ -1621,7 +1823,8 @@
   "culture": "Thailand (SukhoThailand)",
   "filename": "1981_458.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 38975,
   "date": 400,
@@ -1629,7 +1832,8 @@
   "culture": "Sri Lanka",
   "filename": "1986_501_9_F.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 38916,
   "date": 750,
@@ -1637,7 +1841,8 @@
   "culture": "Cambodia",
   "filename": "85_11_11.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with remains of lacquer gilding"
+  "medium": "Stone with remains of lacquer gilding",
+  "CV": true
 }, {
   "objIds": 39310,
   "date": 1250,
@@ -1645,7 +1850,8 @@
   "culture": "Thailand",
   "filename": "1977_187_39.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38731,
   "date": 400,
@@ -1653,7 +1859,8 @@
   "culture": "India",
   "filename": "28_159_5.JPG",
   "classification": "Sculpture",
-  "medium": "Mottled red and white sandstone"
+  "medium": "Mottled red and white sandstone",
+  "CV": "false"
 }, {
   "objIds": 38776,
   "date": 300,
@@ -1661,7 +1868,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "13_96_3.JPG",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": true
 }, {
   "objIds": 38833,
   "date": 250,
@@ -1669,7 +1877,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "1996_383_O.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with polychrome"
+  "medium": "Stucco with polychrome",
+  "CV": true
 }, {
   "objIds": 38533,
   "date": 400,
@@ -1677,7 +1886,8 @@
   "culture": "India",
   "filename": "DP145451.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 38779,
   "date": 200,
@@ -1685,7 +1895,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "13_96_6.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 38807,
   "date": 300,
@@ -1693,7 +1904,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "31_106_7_F2.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": true
 }, {
   "objIds": 38888,
   "date": 1100,
@@ -1701,7 +1913,8 @@
   "culture": "Cambodia",
   "filename": "23_54_1_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer and traces of gilt"
+  "medium": "Wood with lacquer and traces of gilt",
+  "CV": "false"
 }, {
   "objIds": 38879,
   "date": 750,
@@ -1709,7 +1922,8 @@
   "culture": "Cambodia",
   "filename": "85_11_8.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with paint and gilt"
+  "medium": "Stone with paint and gilt",
+  "CV": true
 }, {
   "objIds": 38880,
   "date": 850,
@@ -1717,7 +1931,8 @@
   "culture": "Cambodia",
   "filename": "85_11_9_F.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 39148,
   "date": 1400,
@@ -1725,7 +1940,8 @@
   "culture": "Thailand",
   "filename": "15_123_2.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze with green patina"
+  "medium": "Bronze with green patina",
+  "CV": true
 }, {
   "objIds": 38810,
   "date": 300,
@@ -1733,7 +1949,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "31_106_9_F2.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": true
 }, {
   "objIds": 38882,
   "date": 950,
@@ -1741,7 +1958,8 @@
   "culture": "Cambodia",
   "filename": "85_11_12.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 57372,
   "date": 1000,
@@ -1749,7 +1967,8 @@
   "culture": "Korea",
   "filename": "38_79.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 53808,
   "date": 386,
@@ -1757,7 +1976,8 @@
   "culture": "China",
   "filename": "24_27_O.JPG",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "true"
 }, {
   "objIds": 40047,
   "date": 200,
@@ -1765,7 +1985,8 @@
   "culture": "Central Asia",
   "filename": "30_32_81.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 61778,
   "date": 581,
@@ -1773,7 +1994,8 @@
   "culture": "China",
   "filename": "1985_214_145.JPG",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": true
 }, {
   "objIds": 61563,
   "date": 734,
@@ -1781,7 +2003,8 @@
   "culture": "China",
   "filename": "DP163991.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": true
 }, {
   "objIds": 61737,
   "date": 700,
@@ -1789,7 +2012,8 @@
   "culture": "China",
   "filename": "50_145_328_F3.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 57576,
   "date": 550,
@@ -1797,7 +2021,8 @@
   "culture": "Korea",
   "filename": "17_118_52_F.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 38878,
   "date": 850,
@@ -1805,7 +2030,8 @@
   "culture": "Cambodia",
   "filename": "85_11_7.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 38978,
   "date": 750,
@@ -1813,7 +2039,8 @@
   "culture": "Sri Lanka",
   "filename": "1986_149.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 62852,
   "date": 200,
@@ -1821,7 +2048,8 @@
   "culture": "Pakistan (ancient region of Gandhara) or Afghanistan",
   "filename": "DP158759.jpg",
   "classification": "Sculpture",
-  "medium": "Clay with pigments"
+  "medium": "Clay with pigments",
+  "CV": true
 }, {
   "objIds": 38122,
   "date": 971,
@@ -1829,7 +2057,8 @@
   "culture": "India, Bihar, Nalanda monastery",
   "filename": "6 DP310502r3_61A.jpg",
   "classification": "Sculpture",
-  "medium": "Black schist"
+  "medium": "Black schist",
+  "CV": "false"
 }, {
   "objIds": 57575,
   "date": 550,
@@ -1837,7 +2066,8 @@
   "culture": "Korea",
   "filename": "17_118_51_219958.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 61819,
   "date": 524,
@@ -1845,7 +2075,8 @@
   "culture": "China",
   "filename": "1974_268_7_O1.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 60794,
   "date": 534,
@@ -1853,7 +2084,8 @@
   "culture": "China",
   "filename": "DP170247.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment and gilding"
+  "medium": "Limestone with traces of pigment and gilding",
+  "CV": true
 }, {
   "objIds": 40523,
   "date": 533,
@@ -1861,7 +2093,8 @@
   "culture": "China",
   "filename": "DP222959.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": true
 }, {
   "objIds": 38222,
   "date": 400,
@@ -1869,7 +2102,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DT8676.jpg",
   "classification": "Sculpture",
-  "medium": "Phyllitic brown schist"
+  "medium": "Phyllitic brown schist",
+  "CV": "false"
 }, {
   "objIds": 38634,
   "date": 200,
@@ -1877,7 +2111,8 @@
   "culture": "North India (Uttar Pradesh, Mathura)",
   "filename": "DP701395.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 42705,
   "date": 550,
@@ -1885,7 +2120,8 @@
   "culture": "China (probably Shandong province)",
   "filename": "DT5992.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": "false"
 }, {
   "objIds": 38884,
   "date": 1550,
@@ -1893,7 +2129,8 @@
   "culture": "Cambodia",
   "filename": "85_11_14.JPG",
   "classification": "Sculpture",
-  "medium": "Wood with gilt and lacquer"
+  "medium": "Wood with gilt and lacquer",
+  "CV": "false"
 }, {
   "objIds": 61514,
   "date": 618,
@@ -1901,7 +2138,8 @@
   "culture": "China",
   "filename": "13_151_1_F.JPG",
   "classification": "Sculpture",
-  "medium": "Stone, originally painted and gilded"
+  "medium": "Stone, originally painted and gilded",
+  "CV": true
 }, {
   "objIds": 705435,
   "date": 1000,
@@ -1909,7 +2147,8 @@
   "culture": "Eastern India (Bihar)",
   "filename": "DP-592-001.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 38509,
   "date": 50,
@@ -1917,7 +2156,8 @@
   "culture": "India (Uttar Pradesh, Mathura or Ahicchatra)",
   "filename": "DT5718.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": true
 }, {
   "objIds": 38216,
   "date": 1450,
@@ -1925,7 +2165,8 @@
   "culture": "Tibet",
   "filename": "DT8034.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with traces of gold paint, inlaid with turquoise"
+  "medium": "Stone with traces of gold paint, inlaid with turquoise",
+  "CV": true
 }, {
   "objIds": 42723,
   "date": 700,
@@ -1933,7 +2174,8 @@
   "culture": "China",
   "filename": "DP170269.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with pigment"
+  "medium": "Limestone with pigment",
+  "CV": true
 }, {
   "objIds": 40598,
   "date": 50,
@@ -1941,7 +2183,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123359.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "true"
 }, {
   "objIds": 38209,
   "date": 100,
@@ -1949,7 +2192,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP124077.jpg",
   "classification": "Sculpture",
-  "medium": "Gray schist"
+  "medium": "Gray schist",
+  "CV": "false"
 }, {
   "objIds": 39100,
   "date": 1100,
@@ -1957,7 +2201,8 @@
   "culture": "Cambodia",
   "filename": "DP102610.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38319,
   "date": 1200,
@@ -1965,7 +2210,8 @@
   "culture": "Burma",
   "filename": "1987_199.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer"
+  "medium": "Wood with lacquer",
+  "CV": "false"
 }, {
   "objIds": 39215,
   "date": 600,
@@ -1973,7 +2219,8 @@
   "culture": "Vietnam or Cambodia",
   "filename": "1994_564.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 38455,
   "date": 1100,
@@ -1981,7 +2228,8 @@
   "culture": "Cambodia",
   "filename": "42_152_7.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 40050,
   "date": 500,
@@ -1989,7 +2237,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP271341.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 38305,
   "date": 1100,
@@ -1997,7 +2246,8 @@
   "culture": "Thailand or Cambodia",
   "filename": "264718.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone"
+  "medium": "Sandstone",
+  "CV": "false"
 }, {
   "objIds": 37654,
   "date": 1700,
@@ -2005,7 +2255,8 @@
   "culture": "Thailand",
   "filename": "66_86ab.jpg",
   "classification": "Sculpture",
-  "medium": "Gold, lacquer and silver"
+  "medium": "Gold, lacquer and silver",
+  "CV": "false"
 }, {
   "objIds": 39109,
   "date": 1100,
@@ -2013,7 +2264,8 @@
   "culture": "Thailand",
   "filename": "1989_236_6_257151.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39125,
   "date": 900,
@@ -2021,7 +2273,8 @@
   "culture": "Sri Lanka",
   "filename": "1979_510_1.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 39214,
   "date": 967,
@@ -2029,7 +2282,8 @@
   "culture": "India",
   "filename": "1990_121ab.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with silver inlay"
+  "medium": "Bronze with silver inlay",
+  "CV": true
 }, {
   "objIds": 38579,
   "date": 700,
@@ -2037,7 +2291,8 @@
   "culture": "India (Jammu & Kashmir, ancient kingdom of Kashmir)",
   "filename": "1982_463_3.JPG",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 40046,
   "date": 200,
@@ -2045,7 +2300,8 @@
   "culture": "Central Asia",
   "filename": "30_32_80.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 61770,
   "date": 534,
@@ -2053,7 +2309,8 @@
   "culture": "China",
   "filename": "1985_214_141.JPG",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 65015,
   "date": 1167,
@@ -2061,7 +2318,8 @@
   "culture": "Burma",
   "filename": "DT5633.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze inlaid with silver and copper"
+  "medium": "Bronze inlaid with silver and copper",
+  "CV": "false"
 }, {
   "objIds": 38506,
   "date": 1,
@@ -2069,7 +2327,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "13_96_18.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 39985,
   "date": 500,
@@ -2077,7 +2336,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP269544.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 61767,
   "date": 467,
@@ -2085,7 +2345,8 @@
   "culture": "China",
   "filename": "DP170226.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 38889,
   "date": 12,
@@ -2093,7 +2354,8 @@
   "culture": "Cambodia",
   "filename": "25_144.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": true
 }, {
   "objIds": 75409,
   "date": 1700,
@@ -2101,7 +2363,8 @@
   "culture": "Sri Lanka (Kandy district)",
   "filename": "2010_475_6_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Ivory"
+  "medium": "Ivory",
+  "CV": true
 }, {
   "objIds": 39944,
   "date": 500,
@@ -2109,7 +2372,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP269540.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with color"
+  "medium": "Stucco with color",
+  "CV": "false"
 }, {
   "objIds": 39946,
   "date": 500,
@@ -2117,7 +2381,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP269541.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with color"
+  "medium": "Stucco with color",
+  "CV": "false"
 }, {
   "objIds": 39945,
   "date": 500,
@@ -2125,7 +2390,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP267825.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with color"
+  "medium": "Stucco with color",
+  "CV": "false"
 }, {
   "objIds": 38129,
   "date": 800,
@@ -2133,7 +2399,8 @@
   "culture": "India, Bihar, possibly Bodhgaya or Nalanda",
   "filename": "8 DP310519r1_61A.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 44798,
   "date": 650,
@@ -2141,7 +2408,8 @@
   "culture": "China (Henan province)",
   "filename": "DP213352.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": "false"
 }, {
   "objIds": 39164,
   "date": 500,
@@ -2149,7 +2417,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP138051.jpg",
   "classification": "Sculpture",
-  "medium": "Brass"
+  "medium": "Brass",
+  "CV": true
 }, {
   "objIds": 38240,
   "date": 200,
@@ -2157,7 +2426,8 @@
   "culture": "India (Andhra Pradesh, Goli)",
   "filename": "DP-15581-020.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 38574,
   "date": 1000,
@@ -2165,7 +2435,8 @@
   "culture": "India (Gujarat or Rajasthan)",
   "filename": "DT5161.jpg",
   "classification": "Sculpture",
-  "medium": "Marble"
+  "medium": "Marble",
+  "CV": true
 }, {
   "objIds": 38335,
   "date": 1000,
@@ -2173,7 +2444,8 @@
   "culture": "Nepal, Kathmandu Valley",
   "filename": "DT5228.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with gilding and semiprecious stones"
+  "medium": "Copper alloy with gilding and semiprecious stones",
+  "CV": true
 }, {
   "objIds": 38262,
   "date": 700,
@@ -2181,7 +2453,8 @@
   "culture": "Thailand (Buriram province, Prakhon Chai)",
   "filename": "264785_1984.491.3.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38292,
   "date": 800,
@@ -2189,7 +2462,8 @@
   "culture": "Indonesia (Java)",
   "filename": "1988_431.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38331,
   "date": 1000,
@@ -2197,7 +2471,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "264787.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt-copper alloy"
+  "medium": "Gilt-copper alloy",
+  "CV": "false"
 }, {
   "objIds": 39113,
   "date": 1300,
@@ -2205,7 +2480,8 @@
   "culture": "Thailand",
   "filename": "264879.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38402,
   "date": 700,
@@ -2213,7 +2489,8 @@
   "culture": "India (Jammu & Kashmir, ancient kingdom of Kashmir)",
   "filename": "1984_487_2.JPG",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 39022,
   "date": 800,
@@ -2221,7 +2498,8 @@
   "culture": "Indonesia (Java)",
   "filename": "DP254835.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39757,
   "date": 534,
@@ -2229,7 +2507,8 @@
   "culture": "China",
   "filename": "DP164057.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with pigment and gilding"
+  "medium": "Limestone with pigment and gilding",
+  "CV": true
 }, {
   "objIds": 38651,
   "date": 400,
@@ -2237,7 +2516,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123385.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 39951,
   "date": 200,
@@ -2245,7 +2525,8 @@
   "culture": "Central Asia",
   "filename": "30_32_25.JPG",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": "false"
 }, {
   "objIds": 39201,
   "date": 1100,
@@ -2253,7 +2534,8 @@
   "culture": "Thailand or Cambodia",
   "filename": "1993_387_9.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38109,
   "date": 600,
@@ -2261,7 +2543,8 @@
   "culture": "Afghanistan (found near Kabul)",
   "filename": "DP123394.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": true
 }, {
   "objIds": 49889,
   "date": 1700,
@@ -2269,7 +2552,8 @@
   "culture": "Korea",
   "filename": "DP105204.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with polychrome paint"
+  "medium": "Wood with polychrome paint",
+  "CV": "false"
 }, {
   "objIds": 75354,
   "date": 900,
@@ -2277,7 +2561,8 @@
   "culture": "Tibet",
   "filename": "9 DP248220r2_61A.jpg",
   "classification": "Sculpture",
-  "medium": "Sun-dried clay, painted"
+  "medium": "Sun-dried clay, painted",
+  "CV": "false"
 }, {
   "objIds": 697341,
   "date": 1434,
@@ -2285,7 +2570,8 @@
   "culture": "Tibet",
   "filename": "DP369222.jpg",
   "classification": "Sculpture",
-  "medium": "Brass"
+  "medium": "Brass",
+  "CV": "false"
 }, {
   "objIds": 61509,
   "date": 1400,
@@ -2293,7 +2579,8 @@
   "culture": "China",
   "filename": "DP163958.jpg",
   "classification": "Sculpture",
-  "medium": "Leaded brass"
+  "medium": "Leaded brass",
+  "CV": true
 }, {
   "objIds": 57573,
   "date": 900,
@@ -2301,7 +2588,8 @@
   "culture": "Korea",
   "filename": "17_118_49_36907.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 38317,
   "date": 1100,
@@ -2309,7 +2597,8 @@
   "culture": "India (Bihar or West Bengal)",
   "filename": "DP102618.jpg",
   "classification": "Sculpture",
-  "medium": "Mudstone"
+  "medium": "Mudstone",
+  "CV": "false"
 }, {
   "objIds": 42718,
   "date": 550,
@@ -2317,7 +2606,8 @@
   "culture": "China",
   "filename": "DP213356.jpg",
   "classification": "Sculpture",
-  "medium": "Sandstone with pigment"
+  "medium": "Sandstone with pigment",
+  "CV": true
 }, {
   "objIds": 38950,
   "date": 750,
@@ -2325,7 +2615,8 @@
   "culture": "Northeastern Thailand",
   "filename": "LK_DP316445r3_25AA.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy inlaid with silver and glass or obsidian"
+  "medium": "Copper alloy inlaid with silver and glass or obsidian",
+  "CV": true
 }, {
   "objIds": 38600,
   "date": 1300,
@@ -2333,7 +2624,8 @@
   "culture": "Tibet",
   "filename": "DP102611.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with color"
+  "medium": "Stone with color",
+  "CV": true
 }, {
   "objIds": 42699,
   "date": 700,
@@ -2341,7 +2633,8 @@
   "culture": "China",
   "filename": "DP170187.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 38235,
   "date": 50,
@@ -2349,7 +2642,8 @@
   "culture": "India (Uttar Pradesh, Mathura)",
   "filename": "1991_379_O.jpg",
   "classification": "Sculpture",
-  "medium": "Mottled red sandstone"
+  "medium": "Mottled red sandstone",
+  "CV": true
 }, {
   "objIds": 39105,
   "date": 1100,
@@ -2357,7 +2651,8 @@
   "culture": "Cambodia",
   "filename": "1988_397.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38364,
   "date": -150,
@@ -2365,7 +2660,8 @@
   "culture": "India (Madhya Pradesh)",
   "filename": "DP-15581-042.jpg",
   "classification": "Sculpture",
-  "medium": "Red sandstone"
+  "medium": "Red sandstone",
+  "CV": "false"
 }, {
   "objIds": 38316,
   "date": 1000,
@@ -2373,7 +2669,8 @@
   "culture": "Burma",
   "filename": "DP701407.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 64926,
   "date": 1200,
@@ -2381,7 +2678,8 @@
   "culture": "Thailand or Cambodia",
   "filename": "2002_270_F.JPG",
   "classification": "Sculpture",
-  "medium": "Ivory"
+  "medium": "Ivory",
+  "CV": "false"
 }, {
   "objIds": 39106,
   "date": 1167,
@@ -2389,7 +2687,8 @@
   "culture": "Thailand",
   "filename": "1989_236_5_257150.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38439,
   "date": 1500,
@@ -2397,7 +2696,8 @@
   "culture": "Nepal",
   "filename": "DP-13089-001.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 39200,
   "date": 1200,
@@ -2405,7 +2705,8 @@
   "culture": "Thailand or Cambodia",
   "filename": "DP-15581-050.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38541,
   "date": 400,
@@ -2413,7 +2714,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "1991_407_1_DP123388.jpg",
   "classification": "Sculpture",
-  "medium": "Phyllitic green schist"
+  "medium": "Phyllitic green schist",
+  "CV": "false"
 }, {
   "objIds": 38433,
   "date": 1250,
@@ -2421,7 +2723,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "1987_142_358.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt copper alloy, inlaid with semiprecious stones"
+  "medium": "Gilt copper alloy, inlaid with semiprecious stones",
+  "CV": "false"
 }, {
   "objIds": 39122,
   "date": 800,
@@ -2429,7 +2732,8 @@
   "culture": "Thailand (Buriram Province, Prakhon Chai)",
   "filename": "1989_237_2.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze with high-tin content or silver alloy"
+  "medium": "Bronze with high-tin content or silver alloy",
+  "CV": "false"
 }, {
   "objIds": 38524,
   "date": 1000,
@@ -2437,7 +2741,8 @@
   "culture": "India (Bihar)",
   "filename": "1995_569_1_F_sf.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 39196,
   "date": 700,
@@ -2445,7 +2750,8 @@
   "culture": "Thailand (Buriram Province, Prakhon Chai)",
   "filename": "DP291187.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with high tin content, or silver alloy"
+  "medium": "Bronze with high tin content, or silver alloy",
+  "CV": true
 }, {
   "objIds": 39150,
   "date": 700,
@@ -2453,7 +2759,8 @@
   "culture": "Thailand (Buriram Province, Prakhon Chai)",
   "filename": "DP702341.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 38411,
   "date": 900,
@@ -2461,7 +2768,8 @@
   "culture": "India, Bihar",
   "filename": "16 DP310511r2_61D.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }, {
   "objIds": 39095,
   "date": 800,
@@ -2469,7 +2777,8 @@
   "culture": "Thailand (Prakhon Chai)",
   "filename": "1987_142_315_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 38581,
   "date": 900,
@@ -2477,7 +2786,8 @@
   "culture": "India (Jammu and Kashmir) or western Tibet",
   "filename": "DP-14528-013.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with traces of polychrome"
+  "medium": "Wood with traces of polychrome",
+  "CV": "false"
 }, {
   "objIds": 38949,
   "date": 700,
@@ -2485,7 +2795,8 @@
   "culture": "Northeastern Thailand",
   "filename": "LK.1989.151_DP291665R1_25U.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with tin"
+  "medium": "Copper alloy with tin",
+  "CV": true
 }, {
   "objIds": 38118,
   "date": 100,
@@ -2493,7 +2804,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123360.jpg",
   "classification": "Sculpture",
-  "medium": "Gray schist"
+  "medium": "Gray schist",
+  "CV": "false"
 }, {
   "objIds": 38327,
   "date": 900,
@@ -2501,7 +2813,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "DP102266.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt copper alloy"
+  "medium": "Gilt copper alloy",
+  "CV": "false"
 }, {
   "objIds": 44838,
   "date": 1100,
@@ -2509,7 +2822,8 @@
   "culture": "Japan",
   "filename": "DP233932.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer and gold leaf"
+  "medium": "Wood with lacquer and gold leaf",
+  "CV": "false"
 }, {
   "objIds": 75406,
   "date": 100,
@@ -2517,7 +2831,8 @@
   "culture": "Sri Lanka, central or western regions",
   "filename": "DP-13346-001.jpg",
   "classification": "Sculpture",
-  "medium": "Rock crystal"
+  "medium": "Rock crystal",
+  "CV": "false"
 }, {
   "objIds": 75404,
   "date": 100,
@@ -2525,7 +2840,8 @@
   "culture": "Sri Lanka, central or western regions",
   "filename": "DP-13344-001.jpg",
   "classification": "Sculpture",
-  "medium": "Rock crystal"
+  "medium": "Rock crystal",
+  "CV": "false"
 }, {
   "objIds": 38171,
   "date": 700,
@@ -2533,7 +2849,8 @@
   "culture": "Thailand (Ratchaburi Province, Ku Bua)",
   "filename": "1987_142_287_244934.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco with color"
+  "medium": "Stucco with color",
+  "CV": "false"
 }, {
   "objIds": 38108,
   "date": 300,
@@ -2541,7 +2858,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123382.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "true"
 }, {
   "objIds": 78434,
   "date": 1600,
@@ -2549,7 +2867,8 @@
   "culture": "China",
   "filename": "DP326722.jpg",
   "classification": "Sculpture",
-  "medium": "Soapstone"
+  "medium": "Soapstone",
+  "CV": true
 }, {
   "objIds": 75405,
   "date": 100,
@@ -2557,7 +2876,8 @@
   "culture": "Sri Lanka, central or western regions",
   "filename": "DP-13345-001.jpg",
   "classification": "Sculpture",
-  "medium": "Rock crystal"
+  "medium": "Rock crystal",
+  "CV": "false"
 }, {
   "objIds": 72383,
   "date": 700,
@@ -2565,7 +2885,8 @@
   "culture": "Pakistan (likely Swat Valley or Gilgit region)",
   "filename": "2003.593.3a, b.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy, gilded and silvered, with silver inlay"
+  "medium": "Copper alloy, gilded and silvered, with silver inlay",
+  "CV": true
 }, {
   "objIds": 38958,
   "date": 600,
@@ -2573,7 +2894,8 @@
   "culture": "Peninsular Thailand",
   "filename": "DP291178.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 75292,
   "date": 1300,
@@ -2581,7 +2903,8 @@
   "culture": "Japan",
   "filename": "2015_300_254a_f_Group1_Burke_edit.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer, color, gold, and inlaid crystal eyes"
+  "medium": "Wood with lacquer, color, gold, and inlaid crystal eyes",
+  "CV": "true"
 }, {
   "objIds": 73214,
   "date": 1100,
@@ -2589,7 +2912,8 @@
   "culture": "India, Bihar",
   "filename": "8 NEW DP257785r1_61E.jpg",
   "classification": "Sculpture",
-  "medium": "Quartz-muscovite-chlorite-talc phyllite"
+  "medium": "Quartz-muscovite-chlorite-talc phyllite",
+  "CV": "false"
 }, {
   "objIds": 54207,
   "date": 700,
@@ -2597,7 +2921,8 @@
   "culture": "China",
   "filename": "DP170149.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt leaded bronze; piece-mold or lost-wax cast"
+  "medium": "Gilt leaded bronze; piece-mold or lost-wax cast",
+  "CV": true
 }, {
   "objIds": 44842,
   "date": 1100,
@@ -2605,7 +2930,8 @@
   "culture": "Japan",
   "filename": "DT223.jpg",
   "classification": "Sculpture",
-  "medium": "Joined-woodblock construction with traces of color and cut-gold"
+  "medium": "Joined-woodblock construction with traces of color and cut-gold",
+  "CV": "false"
 }, {
   "objIds": 56784,
   "date": 1667,
@@ -2613,7 +2939,8 @@
   "culture": "Thailand",
   "filename": "DP105148.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze with traces of gilt; eyes inlaid with shell and garnet"
+  "medium": "Bronze with traces of gilt; eyes inlaid with shell and garnet",
+  "CV": true
 }, {
   "objIds": 49809,
   "date": 50,
@@ -2621,7 +2948,8 @@
   "culture": "Pakistan (ancient region of Gandhara, Swat Valley)",
   "filename": "DP123357.jpg",
   "classification": "Sculpture",
-  "medium": "Schist with gold leaf"
+  "medium": "Schist with gold leaf",
+  "CV": "false"
 }, {
   "objIds": 44890,
   "date": 1240,
@@ -2629,7 +2957,8 @@
   "culture": "Japan",
   "filename": "DP-15581-064.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with gold leaf"
+  "medium": "Wood with gold leaf",
+  "CV": "false"
 }, {
   "objIds": 53175,
   "date": 1050,
@@ -2637,7 +2966,8 @@
   "culture": "Japan",
   "filename": "DP-15581-060.jpg",
   "classification": "Sculpture",
-  "medium": "Lacquered Japanese cypress, color, gold, cut gold leaf, and inlaid crystal eyes"
+  "medium": "Lacquered Japanese cypress, color, gold, cut gold leaf, and inlaid crystal eyes",
+  "CV": true
 }, {
   "objIds": 40406,
   "date": 533,
@@ -2645,7 +2975,8 @@
   "culture": "China",
   "filename": "DP228202.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 42710,
   "date": 528,
@@ -2653,7 +2984,8 @@
   "culture": "China",
   "filename": "DP170274.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": "false"
 }, {
   "objIds": 40407,
   "date": 533,
@@ -2661,7 +2993,8 @@
   "culture": "China",
   "filename": "DP228206.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 38207,
   "date": 100,
@@ -2669,7 +3002,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DT8660.jpg",
   "classification": "Sculpture",
-  "medium": "Schist with traces of gold foil"
+  "medium": "Schist with traces of gold foil",
+  "CV": "false"
 }, {
   "objIds": 38342,
   "date": 1500,
@@ -2677,7 +3011,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "264814.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt-copper alloy with rock-crystal inset"
+  "medium": "Gilt-copper alloy with rock-crystal inset",
+  "CV": "false"
 }, {
   "objIds": 39181,
   "date": 1600,
@@ -2685,7 +3020,8 @@
   "culture": "Mongolia",
   "filename": "DP164047.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": true
 }, {
   "objIds": 61820,
   "date": 367,
@@ -2693,7 +3029,8 @@
   "culture": "China",
   "filename": "DP-15581-062.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze; piece-mold cast"
+  "medium": "Gilt bronze; piece-mold cast",
+  "CV": "false"
 }, {
   "objIds": 53158,
   "date": 500,
@@ -2701,7 +3038,8 @@
   "culture": "Japan",
   "filename": "2015_300_249_F_Burke.jpg",
   "classification": "Sculpture",
-  "medium": "Earthenware with traces of polychrome"
+  "medium": "Earthenware with traces of polychrome",
+  "CV": "false"
 }, {
   "objIds": 38505,
   "date": 150,
@@ -2709,7 +3047,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123378.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": true
 }, {
   "objIds": 38791,
   "date": 100,
@@ -2717,7 +3056,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP138049.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }, {
   "objIds": 38836,
   "date": 608,
@@ -2725,7 +3065,8 @@
   "culture": "Tibet",
   "filename": "30_76_144_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 53167,
   "date": 900,
@@ -2733,7 +3074,8 @@
   "culture": "Japan",
   "filename": "2015_300_251a_Burke_website.jpg",
   "classification": "Sculpture",
-  "medium": "Lacquered and gilded Japanese cypress"
+  "medium": "Lacquered and gilded Japanese cypress",
+  "CV": "false"
 }, {
   "objIds": 62489,
   "date": 608,
@@ -2741,7 +3083,8 @@
   "culture": "Tibet",
   "filename": "30_76_146_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 45449,
   "date": 400,
@@ -2749,7 +3092,8 @@
   "culture": "India (Andhra Pradesh or Tamil Nadu)",
   "filename": "DP100694.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": true
 }, {
   "objIds": 49107,
   "date": 1167,
@@ -2757,7 +3101,8 @@
   "culture": "Japan",
   "filename": "12_134_17.JPG",
   "classification": "Sculpture",
-  "medium": "Wood, gold paint, gold leaf with lacquer, and inlaid crystal eyes"
+  "medium": "Wood, gold paint, gold leaf with lacquer, and inlaid crystal eyes",
+  "CV": true
 }, {
   "objIds": 49108,
   "date": 1167,
@@ -2765,7 +3110,8 @@
   "culture": "Japan",
   "filename": "13981.jpg",
   "classification": "Sculpture",
-  "medium": "Wood, gold paint, gold leaf with lacquer, and inlaid crystal eyes"
+  "medium": "Wood, gold paint, gold leaf with lacquer, and inlaid crystal eyes",
+  "CV": true
 }, {
   "objIds": 42729,
   "date": 900,
@@ -2773,7 +3119,8 @@
   "culture": "China",
   "filename": "DP163985.jpg",
   "classification": "Sculpture",
-  "medium": "Wood (willow) with gesso and pigment; single woodblock construction"
+  "medium": "Wood (willow) with gesso and pigment; single woodblock construction",
+  "CV": true
 }, {
   "objIds": 73383,
   "date": 1667,
@@ -2781,7 +3128,8 @@
   "culture": "China",
   "filename": "DP146806.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt brass; lost-wax cast"
+  "medium": "Gilt brass; lost-wax cast",
+  "CV": true
 }, {
   "objIds": 61698,
   "date": 550,
@@ -2789,7 +3137,8 @@
   "culture": "China",
   "filename": "47_6_F2x.JPG",
   "classification": "Sculpture",
-  "medium": "Black stone"
+  "medium": "Black stone",
+  "CV": "true"
 }, {
   "objIds": 61593,
   "date": 526,
@@ -2797,7 +3146,8 @@
   "culture": "China",
   "filename": "30_76_112_F.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 72485,
   "date": 1634,
@@ -2805,7 +3155,8 @@
   "culture": "Korea",
   "filename": "DP358652.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt wood"
+  "medium": "Gilt wood",
+  "CV": "false"
 }, {
   "objIds": 61532,
   "date": 534,
@@ -2813,7 +3164,8 @@
   "culture": "China",
   "filename": "43058.jpg",
   "classification": "Sculpture",
-  "medium": "Stone"
+  "medium": "Stone",
+  "CV": "false"
 }, {
   "objIds": 53176,
   "date": 1100,
@@ -2821,7 +3173,8 @@
   "culture": "Japan",
   "filename": "DP356182.jpg",
   "classification": "Sculpture",
-  "medium": "Lacquered Japanese cypress, color, gold, cut gold (kirikane), and inlaid crystal eyes"
+  "medium": "Lacquered Japanese cypress, color, gold, cut gold (kirikane), and inlaid crystal eyes",
+  "CV": "true"
 }, {
   "objIds": 54245,
   "date": 1467,
@@ -2829,7 +3182,8 @@
   "culture": "China",
   "filename": "DP170241.jpg",
   "classification": "Sculpture",
-  "medium": "Wood (poplar) with pigment; single-woodblock construction"
+  "medium": "Wood (poplar) with pigment; single-woodblock construction",
+  "CV": true
 }, {
   "objIds": 49124,
   "date": 1300,
@@ -2837,7 +3191,8 @@
   "culture": "Japan",
   "filename": "1975_268_168_207080.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 38204,
   "date": 500,
@@ -2845,7 +3200,8 @@
   "culture": "India (probably Uttar Pradesh)",
   "filename": "DP-14580-001.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38479,
   "date": 600,
@@ -2853,7 +3209,8 @@
   "culture": "Thailand",
   "filename": "DP288807.jpg",
   "classification": "Sculpture",
-  "medium": "Terracotta"
+  "medium": "Terracotta",
+  "CV": "false"
 }, {
   "objIds": 38556,
   "date": 350,
@@ -2861,7 +3218,8 @@
   "culture": "India",
   "filename": "28_159_6.JPG",
   "classification": "Sculpture",
-  "medium": "Mottled red and white sandstone"
+  "medium": "Mottled red and white sandstone",
+  "CV": "false"
 }, {
   "objIds": 38844,
   "date": 650,
@@ -2869,7 +3227,8 @@
   "culture": "Tibet",
   "filename": "38_80_1_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Clay"
+  "medium": "Clay",
+  "CV": "false"
 }, {
   "objIds": 38853,
   "date": 650,
@@ -2877,7 +3236,8 @@
   "culture": "Tibet",
   "filename": "38_80_11_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Clay"
+  "medium": "Clay",
+  "CV": "false"
 }, {
   "objIds": 38851,
   "date": 650,
@@ -2885,7 +3245,8 @@
   "culture": "Tibet",
   "filename": "38_80_8_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Clay"
+  "medium": "Clay",
+  "CV": "false"
 }, {
   "objIds": 39992,
   "date": 1100,
@@ -2893,7 +3254,8 @@
   "culture": "Central Asia",
   "filename": "30_32_50.jpg",
   "classification": "Sculpture",
-  "medium": "Clay"
+  "medium": "Clay",
+  "CV": "false"
 }, {
   "objIds": 61597,
   "date": 618,
@@ -2901,7 +3263,8 @@
   "culture": "China",
   "filename": "30_76_117_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 61598,
   "date": 618,
@@ -2909,7 +3272,8 @@
   "culture": "China",
   "filename": "30_76_118_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 61595,
   "date": 618,
@@ -2917,7 +3281,8 @@
   "culture": "China",
   "filename": "30_76_115_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 61613,
   "date": 386,
@@ -2925,7 +3290,8 @@
   "culture": "China",
   "filename": "30_76_136_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 61603,
   "date": 618,
@@ -2933,7 +3299,8 @@
   "culture": "China",
   "filename": "30_76_123_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": true
 }, {
   "objIds": 61602,
   "date": 618,
@@ -2941,7 +3308,8 @@
   "culture": "China",
   "filename": "30_76_122_O1.jpg",
   "classification": "Sculpture",
-  "medium": "Unglazed terracotta"
+  "medium": "Unglazed terracotta",
+  "CV": "false"
 }, {
   "objIds": 61652,
   "date": 600,
@@ -2949,7 +3317,8 @@
   "culture": "China",
   "filename": "DP163994.jpg",
   "classification": "Sculpture",
-  "medium": "Earthenware with traces of pigment and gilding"
+  "medium": "Earthenware with traces of pigment and gilding",
+  "CV": "false"
 }, {
   "objIds": 61526,
   "date": 600,
@@ -2957,7 +3326,8 @@
   "culture": "China",
   "filename": "DP163961.jpg",
   "classification": "Sculpture",
-  "medium": "Earthenware with traces of pigment"
+  "medium": "Earthenware with traces of pigment",
+  "CV": "false"
 }, {
   "objIds": 61508,
   "date": 618,
@@ -2965,7 +3335,8 @@
   "culture": "China",
   "filename": "12_37_159_F.JPG",
   "classification": "Sculpture",
-  "medium": "Marble, paint traces"
+  "medium": "Marble, paint traces",
+  "CV": true
 }, {
   "objIds": 61545,
   "date": 534,
@@ -2973,7 +3344,8 @@
   "culture": "China",
   "filename": "DP163978.jpg",
   "classification": "Sculpture",
-  "medium": "Serpentinite"
+  "medium": "Serpentinite",
+  "CV": "false"
 }, {
   "objIds": 61507,
   "date": 618,
@@ -2981,7 +3353,8 @@
   "culture": "China",
   "filename": "12_37_152_F.JPG",
   "classification": "Sculpture",
-  "medium": "Stone, paint traces"
+  "medium": "Stone, paint traces",
+  "CV": true
 }, {
   "objIds": 61552,
   "date": 960,
@@ -2989,7 +3362,8 @@
   "culture": "China",
   "filename": "28_141_TQ.JPG",
   "classification": "Sculpture",
-  "medium": "Wood"
+  "medium": "Wood",
+  "CV": "false"
 }, {
   "objIds": 44893,
   "date": 1336,
@@ -2997,7 +3371,8 @@
   "culture": "Japan",
   "filename": "DT289463.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer, gold leaf, and metal decoration"
+  "medium": "Wood with lacquer, gold leaf, and metal decoration",
+  "CV": "false"
 }, {
   "objIds": 61506,
   "date": 758,
@@ -3005,7 +3380,8 @@
   "culture": "China",
   "filename": "DP222960.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 44839,
   "date": 1100,
@@ -3013,7 +3389,8 @@
   "culture": "Japan",
   "filename": "DP235251.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with traces of color"
+  "medium": "Wood with traces of color",
+  "CV": "false"
 }, {
   "objIds": 39184,
   "date": 975,
@@ -3021,7 +3398,8 @@
   "culture": "Cambodia",
   "filename": "DT250.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy, silver inlay"
+  "medium": "Copper alloy, silver inlay",
+  "CV": true
 }, {
   "objIds": 44840,
   "date": 1100,
@@ -3029,7 +3407,8 @@
   "culture": "Japan",
   "filename": "DP233934.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with traces of color"
+  "medium": "Wood with traces of color",
+  "CV": "true"
 }, {
   "objIds": 38339,
   "date": 1300,
@@ -3037,7 +3416,8 @@
   "culture": "Nepal, Kathmandu Valley",
   "filename": "DP251650.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt-copper alloy"
+  "medium": "Gilt-copper alloy",
+  "CV": "false"
 }, {
   "objIds": 50325,
   "date": 900,
@@ -3045,7 +3425,8 @@
   "culture": "Korea",
   "filename": "DT4423.jpg",
   "classification": "Sculpture",
-  "medium": "Gilt bronze"
+  "medium": "Gilt bronze",
+  "CV": "false"
 }, {
   "objIds": 38582,
   "date": 1300,
@@ -3053,7 +3434,8 @@
   "culture": "Tibet",
   "filename": "DP252972.jpg",
   "classification": "Sculpture",
-  "medium": "Stone with polychrome"
+  "medium": "Stone with polychrome",
+  "CV": true
 }, {
   "objIds": 42707,
   "date": 512,
@@ -3061,7 +3443,8 @@
   "culture": "China",
   "filename": "DP170138.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone with traces of pigment"
+  "medium": "Limestone with traces of pigment",
+  "CV": "false"
 }, {
   "objIds": 38974,
   "date": 671,
@@ -3069,7 +3452,8 @@
   "culture": "Sri Lanka",
   "filename": "DP100684.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "true"
 }, {
   "objIds": 39117,
   "date": 900,
@@ -3077,7 +3461,8 @@
   "culture": "Nepal, Kathmandu Valley",
   "filename": "LC-1987_142_320_001.jpg",
   "classification": "Sculpture",
-  "medium": "Bronze"
+  "medium": "Bronze",
+  "CV": "false"
 }, {
   "objIds": 39213,
   "date": 1700,
@@ -3085,7 +3470,8 @@
   "culture": "Mongolia",
   "filename": "DP170167.jpg",
   "classification": "Sculpture",
-  "medium": "Brass with pigment, inlaid with copper and silver; lost-wax cast"
+  "medium": "Brass with pigment, inlaid with copper and silver; lost-wax cast",
+  "CV": "false"
 }, {
   "objIds": 78192,
   "date": 1300,
@@ -3093,7 +3479,8 @@
   "culture": "Western Tibet or Ladakh",
   "filename": "DP298008.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy with copper and silver inlay"
+  "medium": "Copper alloy with copper and silver inlay",
+  "CV": true
 }, {
   "objIds": 49258,
   "date": 900,
@@ -3101,7 +3488,8 @@
   "culture": "Japan",
   "filename": "2002_447_3.jpg",
   "classification": "Sculpture",
-  "medium": "Cypress"
+  "medium": "Cypress",
+  "CV": true
 }, {
   "objIds": 38117,
   "date": 1,
@@ -3109,7 +3497,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123358.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }, {
   "objIds": 73226,
   "date": 1615,
@@ -3117,7 +3506,8 @@
   "culture": "Japan",
   "filename": "DP158784.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer, gold leaf, and cut gold (kirikane) and metal"
+  "medium": "Wood with lacquer, gold leaf, and cut gold (kirikane) and metal",
+  "CV": true
 }, {
   "objIds": 38544,
   "date": 400,
@@ -3125,7 +3515,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123384.jpg",
   "classification": "Sculpture",
-  "medium": "Stucco"
+  "medium": "Stucco",
+  "CV": true
 }, {
   "objIds": 39905,
   "date": 500,
@@ -3133,7 +3524,8 @@
   "culture": "China (Xinjiang Autonomous Region)",
   "filename": "DP272060.jpg",
   "classification": "Sculpture",
-  "medium": "Red clay with traces of color"
+  "medium": "Red clay with traces of color",
+  "CV": true
 }, {
   "objIds": 42726,
   "date": 960,
@@ -3141,7 +3533,8 @@
   "culture": "China",
   "filename": "DP163987.jpg",
   "classification": "Sculpture",
-  "medium": "Wood (foxglove) with traces of  pigment; single-woodblock construction"
+  "medium": "Wood (foxglove) with traces of  pigment; single-woodblock construction",
+  "CV": true
 }, {
   "objIds": 73225,
   "date": 1615,
@@ -3149,7 +3542,8 @@
   "culture": "Japan",
   "filename": "DP158783.jpg",
   "classification": "Sculpture",
-  "medium": "Wood with lacquer, gold leaf, and cut gold (kirikane) and metal"
+  "medium": "Wood with lacquer, gold leaf, and cut gold (kirikane) and metal",
+  "CV": true
 }, {
   "objIds": 53165,
   "date": 800,
@@ -3157,7 +3551,8 @@
   "culture": "Japan",
   "filename": "DP-16151-001.jpg",
   "classification": "Sculpture",
-  "medium": "Japanese cypress with traces of color"
+  "medium": "Japanese cypress with traces of color",
+  "CV": true
 }, {
   "objIds": 40009,
   "date": 1688,
@@ -3165,7 +3560,8 @@
   "culture": "Japan",
   "filename": "DT242491.jpg",
   "classification": "Sculpture",
-  "medium": "One of a set of five hundred; wood with lacquer, gold leaf, and paint"
+  "medium": "One of a set of five hundred; wood with lacquer, gold leaf, and paint",
+  "CV": true
 }, {
   "objIds": 53162,
   "date": 800,
@@ -3173,7 +3569,8 @@
   "culture": "Japan",
   "filename": "2015_300_253ab_Burke_website.jpg",
   "classification": "Sculpture",
-  "medium": "Zelkova wood with traces of color"
+  "medium": "Zelkova wood with traces of color",
+  "CV": true
 }, {
   "objIds": 636158,
   "date": 1286,
@@ -3181,7 +3578,8 @@
   "culture": "Indonesia (East Java)",
   "filename": "DP-15313-001.jpg",
   "classification": "Sculpture",
-  "medium": "Copper alloy"
+  "medium": "Copper alloy",
+  "CV": "false"
 }, {
   "objIds": 38552,
   "date": 1600,
@@ -3189,7 +3587,8 @@
   "culture": "India (Tamil Nadu)",
   "filename": "62_34_1.JPG",
   "classification": "Sculpture",
-  "medium": "Ivory"
+  "medium": "Ivory",
+  "CV": "true"
 }, {
   "objIds": 53190,
   "date": 1150,
@@ -3197,7 +3596,8 @@
   "culture": "Japan",
   "filename": "2015_300_257a_Burke_website.jpg",
   "classification": "Sculpture",
-  "medium": "Japanese cypress with lacquer, gold leaf, and color"
+  "medium": "Japanese cypress with lacquer, gold leaf, and color",
+  "CV": "false"
 }, {
   "objIds": 38213,
   "date": 50,
@@ -3205,7 +3605,8 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DP123363.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }, {
   "objIds": 38441,
   "date": 1500,
@@ -3213,7 +3614,8 @@
   "culture": "Nepal (Kathmandu Valley)",
   "filename": "DP335606.jpg",
   "classification": "Sculpture",
-  "medium": "Sandalwood, traces of polychrome and gold"
+  "medium": "Sandalwood, traces of polychrome and gold",
+  "CV": "true"
 }, {
   "objIds": 52701,
   "date": 1300,
@@ -3221,7 +3623,8 @@
   "culture": "Japan",
   "filename": "DP104983.jpg",
   "classification": "Sculpture",
-  "medium": "Wood, gilt bronze, colored beads, and crystal"
+  "medium": "Wood, gilt bronze, colored beads, and crystal",
+  "CV": "true"
 }, {
   "objIds": 75914,
   "date": 1399,
@@ -3229,7 +3632,8 @@
   "culture": "Thailand",
   "filename": "DP248238.jpg",
   "classification": "Sculpture",
-  "medium": "Glazed stoneware (Si Satchanalai kilns)"
+  "medium": "Glazed stoneware (Si Satchanalai kilns)",
+  "CV": true
 }, {
   "objIds": 75200,
   "date": 100,
@@ -3237,7 +3641,8 @@
   "culture": "India (probably Nagarjunakonda, Andhra Pradesh)",
   "filename": "DP210597.jpg",
   "classification": "Sculpture",
-  "medium": "Limestone"
+  "medium": "Limestone",
+  "CV": "false"
 }, {
   "objIds": 49119,
   "date": 1690,
@@ -3245,7 +3650,8 @@
   "culture": "Japan",
   "filename": "1975_268_169ab_AOJ_Jan10_vP_I_sf.jpg",
   "classification": "Sculpture",
-  "medium": "Wood"
+  "medium": "Wood",
+  "CV": "false"
 }, {
   "objIds": 44613,
   "date": 1500,
@@ -3253,7 +3659,8 @@
   "culture": "China",
   "filename": "DP164044.jpg",
   "classification": "Sculpture",
-  "medium": "Wood (willow) with traces of pigment, single-woodblock construction"
+  "medium": "Wood (willow) with traces of pigment, single-woodblock construction",
+  "CV": true
 }, {
   "objIds": 53201,
   "date": 900,
@@ -3261,7 +3668,8 @@
   "culture": "China",
   "filename": "DP164014.jpg",
   "classification": "Sculpture",
-  "medium": "High-leaded bronze"
+  "medium": "High-leaded bronze",
+  "CV": "false"
 }, {
   "objIds": 38138,
   "date": 900,
@@ -3269,7 +3677,8 @@
   "culture": "India, Bihar",
   "filename": "35 DP314869R3_61D.jpg",
   "classification": "Sculpture",
-  "medium": "Black stone"
+  "medium": "Black stone",
+  "CV": true
 }, {
   "objIds": 53467,
   "date": 534,
@@ -3277,7 +3686,8 @@
   "culture": "China",
   "filename": "14_94_24064.JPG",
   "classification": "Sculpture",
-  "medium": "Alabaster"
+  "medium": "Alabaster",
+  "CV": "false"
 }, {
   "objIds": 44898,
   "date": 1400,
@@ -3285,7 +3695,8 @@
   "culture": "Japan",
   "filename": "DT2653.jpg",
   "classification": "Sculpture",
-  "medium": "Lacquer on wood with inlaid crystal eyes"
+  "medium": "Lacquer on wood with inlaid crystal eyes",
+  "CV": "true"
 }, {
   "objIds": 75826,
   "date": 1300,
@@ -3293,7 +3704,8 @@
   "culture": "Tibet",
   "filename": "SL_20_2010_1_1ab.jpg",
   "classification": "Sculpture",
-  "medium": "Ebony with polychrome"
+  "medium": "Ebony with polychrome",
+  "CV": "false"
 }, {
   "objIds": 62361,
   "date": 1700,
@@ -3301,7 +3713,8 @@
   "culture": "Japan",
   "filename": "DP231452.jpg",
   "classification": "Sculpture",
-  "medium": "Wood, with traces of color and gilt and inset glass eyes"
+  "medium": "Wood, with traces of color and gilt and inset glass eyes",
+  "CV": true
 }, {
   "objIds": 62360,
   "date": 1700,
@@ -3309,7 +3722,8 @@
   "culture": "Japan",
   "filename": "DP231445.jpg",
   "classification": "Sculpture",
-  "medium": "Wood, with traces of color and gilt and inset glass eyes"
+  "medium": "Wood, with traces of color and gilt and inset glass eyes",
+  "CV": true
 }, {
   "objIds": 39309,
   "date": 1800,
@@ -3317,7 +3731,8 @@
   "culture": "Thailand or Laos",
   "filename": "21_24.JPG",
   "classification": "Sculpture",
-  "medium": "Bronze with gilt"
+  "medium": "Bronze with gilt",
+  "CV": true
 }, {
   "objIds": 38106,
   "date": -50,
@@ -3325,5 +3740,6 @@
   "culture": "Pakistan (ancient region of Gandhara)",
   "filename": "DT8678.jpg",
   "classification": "Sculpture",
-  "medium": "Schist"
+  "medium": "Schist",
+  "CV": "false"
 }]
