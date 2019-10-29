@@ -12,14 +12,17 @@ const CONSTANTS = {
 };
 
 const {
+  TOOLTIP_HEIGHT,
+  TOOLTIP_WIDTH,
   CLASS,
   PETAL_LENGTH,
   PETAL_WIDTH,
   SEPAL_LENGTH,
   SEPAL_WIDTH,
-  TOOLTIP_HEIGHT,
-  TOOLTIP_WIDTH,
 } = CONSTANTS;
+
+
+// const { SEPAL_WIDTH= CONSTANTS;
 
 // we can set up our state schema before we have any data
 let state = {
