@@ -356,6 +356,8 @@ countingPics[cultureName]=0
 
 }
 
+
+
 function ThirdCV(cultureName, data) {
 
   d3.select("#page1")
@@ -375,6 +377,7 @@ d3.selectAll(".detailPages").remove();
 
 
   let thisimage;
+  let thisgroup;
   let countPic = 0;
   for (content in data) {
     if (data[content]['CV'] == true) {
@@ -390,28 +393,42 @@ d3.selectAll(".detailPages").remove();
           // thisImgList.push
 
 
-          let thistext=  d3.selectAll(("#" + cultureName)).append("p")
-                .attr("class","yearText")
-                .text(loadingData[content]['date']+" CE")
-                .style("position","absolute")
-
-                .style("font-size", '6pt')
-                .style("margin-left","40px")
-                .style("margin-top","0px")
-                .style("display","inline-block")
-                .style("opacity", 0)
-                thistext.transition()
-                .duration(2000)
-                .delay(150*countPic)
-                .ease(d3.easeQuadIn)
-                .style("opacity", 1);
 
 
-          thisimage = d3.selectAll(("#" + cultureName))
+
+          thisgroup = d3.selectAll(("#" + cultureName))
             .style("height", null)
 
             // .style("position",)
-            .append("img")
+            .append("div")
+              .style("display","inline-block")
+            // .style("", "fixed")
+            .attr('width', 100)
+            .attr('height', 100);
+
+
+
+            let  thistext=  thisgroup.append("p")
+                  .attr("class","yearText")
+                  .text(loadingData[content]['date']+" CE")
+                  .style("position","absolute")
+
+                  .style("font-size", '6pt')
+                  .style("margin-left","auto")
+                  // .style("margin-right","auto")
+                  .style("display","inline-block")
+                  .style("margin-top","0px")
+                  .style('width', '100px')
+                    // .style("width","100px")
+                  .style("opacity", 0);
+
+                  thistext.transition()
+                  .duration(2000)
+                  .delay(150*countPic)
+                  .ease(d3.easeQuadIn)
+                  .style("opacity", 1);
+
+          thisimage=thisgroup.append("img")
             .attr('src', 'data/output/'+ data[content]['objIds']+'_Crop.jpg' )
             // .attr('src', '../../../MajorStudioSupportFile/p2Data/output/'+ data[content]['objIds']+'.png' )
             // .attr('width', 100)
@@ -429,11 +446,17 @@ d3.selectAll(".detailPages").remove();
               // d3.select(this).style("visibility", "hidden");
               d3.select(this).remove();
             });
+            //text
+
+
+
+
           thisimage.transition()
             .duration(1000)
             .delay(100*countPic)
             .ease(d3.easeQuadIn)
             .style("opacity", 1);
+
 
 
         }
@@ -540,24 +563,33 @@ detailTitle.append("input")
                     // d3.selectAll(".detailPages")
                     //   .append('div')
                     //   .attr("class","infoImagenYear");
+                    let thisGroup = d3.selectAll(".detailPages")
+                                      .append("div")
+                                      .style("display","inline-block")
+                                    // .style("", "fixed")
+                                      .attr('width', 100)
+                                      .attr('height', 100);
+                  let  thistext=thisGroup
+                                  .append("p")
+                                  .text(loadingData[content]['date']+" CE")
+                                  .style("position","absolute")
+                                  .style("display","inline-block")
+                                  .style("margin-left","auto")
+                                  .style("font-size", '6pt')
+                                  .style("margin-top","0px")
+                                  .style("text-align","center")
+                                    .style("width", "100px")
+                                    // .style("padding","10px")
+                                  .style("opacity", 0)
+                                  thistext.transition()
+                                  .duration(1000)
+                                  .delay(150*countPic)
+                                  .ease(d3.easeQuadIn)
+                                  .style("opacity", 1);
+                                  // .style("height", null)
 
 
-                  let  thistext=d3.selectAll(".detailPages")
-                      .append("p")
-                      .text(loadingData[content]['date']+" CE")
-                      .style("position","absolute")
-                      .style("font-size", '6pt')
-                      .style("margin-left","40px")
-                      .style("margin-top","0px")
-                      .style("display","inline-block")
-                      .style("opacity", 0)
-                      thistext.transition()
-                      .duration(1000)
-                      .delay(150*countPic)
-                      .ease(d3.easeQuadIn)
-                      .style("opacity", 1);
-                      // .style("height", null)
-                  let thisimage =  d3.selectAll(".detailPages")
+                  let thisimage = thisGroup
                       .append("img")
                       // .attr('src', '../../../MajorStudioSupportFile/p2Data/output3/'+ loadingData[content]['objIds']+'_Crop.jpg' )
                       .attr('src', 'data/'+folderName+'/' + loadingData[content]['objIds'] + '.png')
@@ -578,6 +610,8 @@ detailTitle.append("input")
                       .delay(100*countPic)
                       .ease(d3.easeQuadIn)
                       .style("opacity", 1);
+
+
 
 
                       d3.select(".hidden").selectAll("img").on("mouseover", function(){
