@@ -122,7 +122,7 @@ bottom: 0px;
   /* text-align: center; */
   justify-content: center;
   position: -webkit-sticky;
-    position: sticky;
+  position: sticky;
     top: 0;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.71);
@@ -166,37 +166,48 @@ background-color: rgba(255,0,0,1);
 }
 
 .describeArea{
-display: flex;
+display: block;
+/* position:  */
 
 }
 
 
 #dataSource{
+  display:inline-block;
   /* position: absolute; */
   /* margin-left: 10%; */
     padding-top:  35px;
-  text-align: left;
-  /* margin-top: auto; */
-    margin-bottom: auto;
-    margin-left: auto;
+    /* text-align: left; */
+    text-align: right;
+    margin-top: 0px;
+    width:100px;
+    /* margin-bottom: auto; */
+    /* margin-left: auto; */
+    float: right;
+    margin-left:auto;
     margin-right: 10px;
     font-family: "Didot LT STD";
 
     font-size:12px;
+    /* left: 85%; */
 
 }
 
 #metLogo{
+  display: inline-block;
   background-color: none;
-  padding-top:  35px;
-  /* position: absolute; */
+  /* padding-top:  35px; */
+  position: relative;
    content:url(../Assets/metlogo.png);
    max-width: 50px;
    /* max-height: 50px; */
-     /* margin-top: 90vw; */
-      /* margin-top: auto; */
+     margin-top: 35px;
+      margin-left: auto;
         margin-bottom: auto;
-        margin-right: 80px;
+        margin-right: 20px;
+        /* left:90%; */
+          float: right;
+
    /* max-height: 100vh; */
 /* box-shadow: 4px 4px 18px #b8b8b8; */
 }
@@ -247,7 +258,7 @@ font-size:12px;
   margin-left:  5%;
   margin-top:  20px;
   padding-bottom:  2%;
-  display: block;
+  display: inline-block;
   background-color: white;
   /* padding-top: -30px; */
 color:rgb(62, 62, 62);
