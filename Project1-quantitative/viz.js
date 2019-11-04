@@ -117,6 +117,9 @@ d3.selectAll(".describe")
    .attr("stroke-width", 2)
    .attr("stroke", "grey");
 
+//Call my interactive function
+  linkAllTags();
+  ClicklinkAllTags();
 })
 .catch((err) =>{
   console.error(err);
@@ -170,6 +173,7 @@ function chartOfTags(data, id){
               .style("width", width + margin.left + margin.right+ 'px')
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
               // .each(multipleCircle);
+
               .each(multipleText);
 
       //------text on every graph
@@ -301,7 +305,7 @@ function countCulture(data){
 
  function NestingTheData(data){
 
-//find out the relation ship between objects
+//find out the relationship between objects
   return d3.nest()
   .key(function(d) { return d.year;})
   // .rollup((v)=> {return v; })

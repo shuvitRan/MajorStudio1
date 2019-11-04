@@ -5,11 +5,14 @@ This is a data visualization project studying the facial features of Met's colle
 
 Three different visualizations: face dots, lines & shapes, and face grid, are utilized to demonstrate and compare the facial features of Buddha sculptures.
 
+Data Source: Metropolitan Museum of Art   
+
 The Web-site : https://shuvitran.github.io/MajorStudio1/Project2-qualitative/FrontEnd/
 
 
 ## Process
 
+* Design Sketch
 * Request Buddha sculptures' Information and major image from the Met's API.
 * Clean the data. Find better image if the major image from the request is not a frontal shoot.
 * Using Open-CV and Scikit-Image to process images.
