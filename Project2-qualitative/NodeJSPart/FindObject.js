@@ -75,7 +75,6 @@ function fetchObjects(data){
     objectIDs.forEach(function(n, i) {
       //check link if it's correct
       // console.log(objectBaseUrl + n);
-
       //save to my own json with setTimeout, Rate limiter——————————*****
       setTimeout(function(){
         let objUrl = objectBaseUrl + n;
