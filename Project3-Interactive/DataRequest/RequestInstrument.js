@@ -14,8 +14,8 @@ const objectBaseUrl = 'https://collectionapi.metmuseum.org/public/collection/v1/
 //添加data到已有的json的方式
 let existObj = require('./insdata.json');
 const myArray = [];
-let objNumber = [501646,501536, 500928, 503502,501109,503048,503505,
-                 501802,503348,503651,505399,503523,505626,503672,
+let objNumber = [500709,501646,501536, 500928, 503502,501109,503048,503505,
+                 501802,503348,503651,505399,503523,501369,503672,
                  503951,504210,502377,504019,506174,503578,505034,500957,503644];
 
 // console.log(objectBaseUrl + objNumber)
@@ -73,6 +73,7 @@ function addObject(objectData){
     // return myArray;
     existObj.push({
       objIds : currentID,
+      title: currentTitle,
       date : currentDate,
       image : imgUrl,
       culture: culture,
