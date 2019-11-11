@@ -13,6 +13,8 @@ function setup() {
 
 // load all images
 function loadImages(){
+
+  console.log(typeof(met_data.length));
     for(let i=0; i<met_data.length; i++){
       images[i] = loadImage(folder + "/" + met_data[i].filename,
       function(){
@@ -48,8 +50,8 @@ function drawImages() {
         thisY+= images[i].height+40;
         thiswidth=0;
       }
-      console.log(images[i].height);
-      console.log(images[i].width);
+      // console.log(images[i].height);
+      // console.log(images[i].width);
 
   }
 }
