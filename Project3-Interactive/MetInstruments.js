@@ -1,8 +1,11 @@
   let metData;
   let images=[];
-  let sounds=[];
+  let sound;
   let objIds=[];
   img_height=100;
+
+  let playSound = true;
+  let selection ="waitSelect";
 
   let page = "Start";
 
@@ -36,16 +39,63 @@ function draw(){
       case "Start":
       background(0);
       StartButton();
-      rect()
-
       break;
 
+      case "Loading":
+      background(100,100,0);
+      fill(20);
+      textSize(30);
+      textAlign(CENTER,CENTER);
+      text("loading",width/2, height/2)
+
+      break;
       case "Quize":
-      background(100,0,0);
+      background(0,0,0);
+
+      if(!sound.isPlaying()){
+        sound.loop();
+      };
+      if(selection=="waitSelect"){
+
+      displayQuizeImages();
+
+    }else if(selection=="Wrong") {
+      playerSelected=0;
+      background(200,50,0);
+      fill(0);
+      textSize(50);
+      textAlign(CENTER,CENTER);
+      text("WHOOPS...TRY AGAIN",width/2, height/2);
+      setTimeout(function(){
+        selection="waitSelect";
+      },500);
+
+    } else if(selection =="Correct"){
+    ;
+      background(0,200,0);
+      fill(0);
+      textSize(50);
+      textAlign(CENTER,CENTER);
+      text("CORRECT",width/2, height/2);
+      setTimeout(function(){
+        page="Result";
+        
+
+
+      },1000);
+
+    };
+
       break;
 
       case "Result":
+      sound.stop()
+      DescriptionPage();
+
+
+
       break;
+
 
       default:
 
