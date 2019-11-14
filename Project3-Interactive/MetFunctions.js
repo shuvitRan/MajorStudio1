@@ -17,28 +17,37 @@ function StartButton(){
   let buttonWidth=200;
   let buttonHeight=50;
 
-  let thisObjId = [...objIds];
+
 
   if(mouseX>=width/2-buttonWidth/2 &&
     mouseX<=width/2+buttonWidth/2 &&
-    mouseY<=height/2+buttonHeight/2 &&
-    mouseY>=height/2-buttonHeight/2){
-      fill(100);
-      rect(width/2, height/2,buttonWidth,buttonHeight,1);
+    mouseY<=height*2/3+buttonHeight/2 &&
+    mouseY>=height*2/3-buttonHeight/2){
+      noFill();
+      stroke(200,20,200,200);
+      strokeWeight(3);
+        // fill(230,20,50,200);
+      rect(width/2, height*2/3,buttonWidth,buttonHeight,10);
       if(mouseIsPressed){
-          calculateQuize(thisObjId);
+          calculateQuize();
+
+
         page="Loading";
 
       };
 
   }else{
-    fill(200);
-    rect(width/2, height/2,buttonWidth,buttonHeight,1);
+    noFill();
+    stroke(230,20,100,200);
+    strokeWeight(3);
+    // fill(230,20,100,200);
+    rect(width/2, height*2/3,buttonWidth,buttonHeight,10);
   };
-  fill(20);
-  textSize(30);
+  noStroke();
+  fill(255);
+  textSize(20);
   textAlign(CENTER,CENTER);
-  text("ENTER",width/2, height/2)
+  text("start",width/2, height*2/3)
   // enterButton.mouseOver();
 };
 
@@ -70,9 +79,13 @@ class DisplayInstruments {
        my >=this.y &&
        my<=this.y+this.obj.height){
          // this.obj.resize(0,250);
+         push();
+         stroke(230,20,100,100);
+         strokeWeight(4);
          rectMode(CORNER);
-         fill(190,0,100,100);
+         fill(230,20,10,100);
          rect(this.x,this.y,this.obj.width,this.obj.height);
+         pop();
      }
   }
 
@@ -89,7 +102,8 @@ class DisplayInstruments {
 
 
 
-function calculateQuize(thisObjId){
+function calculateQuize(){
+  let thisObjId = [...objIds];
 
   for(let i=0; i<4;++i){
     let thisid= random(thisObjId);
@@ -105,9 +119,13 @@ function calculateQuize(thisObjId){
     console.log("selectedItems:"+ selectedItems);
     console.log("QuizeObj:"+quizeObj);
     console.log("selectedSoundId"+selectedSoundId);
-      page="Quize";
 
-      soundButton = new MyButton("Stop Music", 100,560, playMusic);
+
+    SoundStatus();
+    page="Quize";
+    soundButton = new MyButton("Stop Music", width/2+100,600, playMusic);
+    restartButton = new MyButton("Restart",width/2-100,600, restartGame);
+
 
   });
 
@@ -133,7 +151,7 @@ function displayQuizeImages(){
 
 };
 
-function mouseReleased(){
+function mousePressed(){
   if(page == "Quize" && selection =="waitSelect"){
     for(let i = 0 ; i< quizeObj.length; ++i){
       quizeObj[i].clicked(mouseX,mouseY);
@@ -150,6 +168,8 @@ function compareResult(){
        selection ="Correct";
        //find the correct obj
        findTheObj();
+       playSound = true;
+
 
 
 
@@ -164,16 +184,18 @@ function compareResult(){
 };
 
 
+
 function DescriptionPage(info, picture){
-  background(240);
+  background(20);
   this.info = info;
   this.picture = picture;
 
+  SoundViz();
   // console.log(resultInfo);
 
   resultPicture.display(width/2-resultPicture.obj.width-150,height/2-150,200);
 
-  fill(0);
+  fill(255);
   textSize(80);
   textAlign(LEFT,TOP);
   text(this.info.title,width/2-130, height/2-150);
@@ -186,6 +208,7 @@ function DescriptionPage(info, picture){
   //
   //
   // }
+
 
 }
 
@@ -210,6 +233,8 @@ for(let i =0; i<quizeObj.length;++i){
     }
   };
 
+
+
 };
 
 function playMusic(){
@@ -219,7 +244,36 @@ function playMusic(){
   }else{
     soundButton.button.html("Play Music");
   }
+
+  SoundStatus();
+
+
+
 };
+
+function restartGame(){
+
+  // let thisObjId = [...objIds];
+  if(sound.isPlaying()){
+  sound.stop();
+  };
+
+  playSound=true;
+  soundButton.remover();
+  restartButton.remover();
+
+for(let i = 0; i<fftCircles.length;i++){
+  fftCircles[i].pUpdate();
+};
+
+if(page =="Quize"){
+  calculateQuize();
+  page="Loading";
+} else if(page =="Result"){
+  page="Start";
+}
+
+}
 
 class MyButton {
 
@@ -233,6 +287,13 @@ class MyButton {
     this.button = createButton(this.index);
     this.button.position(this.x,this.y);
     this.button.mousePressed(this.myfunction);
+  }
+
+  checkWidth(updateX){
+    this.updateX =updateX;
+    this.button.position(updateX,this.y);
+    // this.button.top
+
   }
 
   remover(){

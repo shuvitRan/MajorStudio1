@@ -9,9 +9,25 @@
 
   let page = "Start";
 
+  let isClickAble = false;
+
+let font1;
+var movingDots = []
+let myMainFont = 'Trebuchet MS';
+// let myMainFont = 'Comic Sans MS';
+
+//perlinnoise
+var t;
+
+
+// sound Vis
+let fft, wfft;
+let fftCircles =[];
 
 function preload(){
   metData = loadJSON("DataRequest/insdata.json", data=>{
+    font1 = loadFont("style/PatrickHand-Regular.ttf");
+    // font2 = loadFont("");
     data.forEach(function(n,i){
       images[i]= loadImage("resizeImg/"+ metData[i].objIds+".jpg");
       // sound[i]= loadSound("../../MajorStudioSupportFile/InteractiveProject/WorldMusicTrack/"+metData[i].objIds+".mp3");
@@ -21,13 +37,46 @@ function preload(){
 }
 
 function setup(){
-  var canvas =createCanvas(windowWidth,600);
+
+  var canvas =createCanvas(windowWidth,windowHeight);
 
   canvas.parent('container');
+
+  fft = new p5.FFT(0.9,64);
+  wfft= width/64;
+
+
+
+  // flock = new Flock();
+  // Add an initial set of boids into the system
+  for (let i = 0; i < 64; i++) {
+    fftCircles.push(new Jitter());
+  }
 
   // console.log(metData);
   // console.log(images);
   // resizeImages();
+
+  // textAlign(LEFT);
+  textFont(font1);
+  textSize(150);
+  let aString = 'Let the music play!';
+  let tWidth= textWidth(aString);
+  console.log(tWidth);
+  var points = font1.textToPoints(aString,(width-tWidth)/2,height/2,150,{
+  sampleFactor: 0.25
+
+   // simplifyThreshold: 0
+
+});
+  for(let i =0; i< points.length; i++){
+    let pt = points[i];
+    let movingDot = new MovingDot(pt.x,pt.y);
+    movingDots.push(movingDot);
+  }
+t = 0;
+  textFont(myMainFont);
+
 }
 
 
@@ -36,13 +85,43 @@ function draw(){
 
     switch(page){
       case "Start":
-      background(0);
+
+// PerlinBackground
+      // var x = width * noise(t);
+      // var y = height * noise(t+5);
+      // var r = 255 * noise(t+10);
+      // var g = 255 * noise(t+15);
+      // var b = 255 * noise(t+20);
+      // background(r, g, b);
+    // t = t + 0.01;
+  // noStroke();
+  // fill(r, g, b);
+
+  // ellipse(x, y, 120, 120);
+
+
+      background(20);
+
+
+      // textFont(font1);
+
+      for(let i =0; i< movingDots.length; i++){
+          var v = movingDots[i];
+          v.behaviors();
+          v.update();
+          v.show();
+          // fill(i);
+
+      }
+      noStroke(0);
+      strokeWeight(0);
       StartButton();
+
       break;
 
       case "Loading":
-      background(100,100,0);
-      fill(20);
+      background(20,20,20);
+      fill(100);
       textSize(30);
       textAlign(CENTER,CENTER);
       text("loading",width/2, height/2)
@@ -50,41 +129,46 @@ function draw(){
       break;
       case "Quize":
       background(20,20,20);
+      SoundViz();
 
-      if(!sound.isPlaying() && playSound==true){
-        sound.loop();
-      }else if(playSound ==false){
-        sound.pause();
+      // stroke(255);
+//       flock.run;
+//       function mouseDragged() {
+//   flock.addBoid(new Boid(mouseX, mouseY));
+// }
 
-      };
-      if(selection=="waitSelect"){
 
+
+
+      noStroke();
+      // SoundStatus();
       displayQuizeImages();
+      if(selection=="Wrong") {
 
-    }else if(selection=="Wrong") {
-      playerSelected=0;
-      background(200,50,0);
-      fill(0);
+        playerSelected=0;
+        // background(200,50,0);
+        fill(200,200,200);
+        textSize(50);
+        textAlign(CENTER,CENTER);
+        text("WHOOPS...TRY AGAIN.",width/2, 100);
+
+        setTimeout(function(){
+          selection="waitSelect";
+        },500);
+
+
+
+      } else if(selection =="Correct"){
+
+      // background(0,200,0);
+      fill(250,250,250);
       textSize(50);
       textAlign(CENTER,CENTER);
-      text("WHOOPS...TRY AGAIN",width/2, height/2);
+      text("YES, YOU ARE RIGHT.",width/2, 100);
+
       setTimeout(function(){
         selection="waitSelect";
-      },500);
-
-    } else if(selection =="Correct"){
-    ;
-      background(0,200,0);
-      fill(0);
-      textSize(50);
-      textAlign(CENTER,CENTER);
-      text("CORRECT",width/2, height/2);
-
-      setTimeout(function(){
         page="Result";
-
-        selection="waitSelect";
-
 
       },1000);
 
@@ -94,8 +178,9 @@ function draw(){
 
       case "Result":
       // sound.stop();
+      // SoundStatus();
       DescriptionPage(resultInfo, resultPicture);
-
+      // SoundStatus();
 
 
 
@@ -105,7 +190,6 @@ function draw(){
       //
       //
       // },1000);
-
 
 
       break;
@@ -120,11 +204,29 @@ function draw(){
 }
 
 function windowResized(){
-    resizeCanvas(windowWidth,600);
+    resizeCanvas(windowWidth,windowHeight);
 
+  if(page!="Start"){
+    soundButton.checkWidth(width/2+100,550);
+    restartButton.checkWidth(width/2-100,550);
+  }
 }
 
+function SoundStatus(){
 
+  if(!sound.isPlaying() && playSound==true){
+    sound.loop();
+  }else if( sound.isPlaying()&& playSound ==false ){
+
+    sound.pause();
+
+  }else if(sound.isPlaying() && playSound== false){
+    // return;
+    sound.pause();
+  }else if(!sound.isPlaying() && playSound==true){
+    sound.loop();
+  };
+}
 
 function DisplayImages(){
     // background(0);
