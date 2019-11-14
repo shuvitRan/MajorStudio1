@@ -6,6 +6,11 @@ let playerSelected;
 
 let quizeObj=[];
 
+let resultInfo;
+let resultPicture;
+
+let soundButton, restartButton;
+
 function StartButton(){
 
   rectMode(CENTER);
@@ -19,17 +24,17 @@ function StartButton(){
     mouseY<=height/2+buttonHeight/2 &&
     mouseY>=height/2-buttonHeight/2){
       fill(100);
-      rect(width/2, height/2,buttonWidth,buttonHeight,10);
+      rect(width/2, height/2,buttonWidth,buttonHeight,1);
       if(mouseIsPressed){
-
+          calculateQuize(thisObjId);
         page="Loading";
-        calculateQuize(thisObjId);
+
       };
 
   }else{
     fill(200);
-    rect(width/2, height/2,buttonWidth,buttonHeight,10);
-  }
+    rect(width/2, height/2,buttonWidth,buttonHeight,1);
+  };
   fill(20);
   textSize(30);
   textAlign(CENTER,CENTER);
@@ -55,7 +60,6 @@ class DisplayInstruments {
          console.log("this is item: "+this.objID);
 
          compareResult();
-
 
     }
   }
@@ -103,6 +107,8 @@ function calculateQuize(thisObjId){
     console.log("selectedSoundId"+selectedSoundId);
       page="Quize";
 
+      soundButton = new MyButton("Stop Music", 100,560, playMusic);
+
   });
 
 };
@@ -134,7 +140,7 @@ function mouseReleased(){
     }
   };
 
-}
+};
 
 function compareResult(){
 
@@ -142,6 +148,10 @@ function compareResult(){
 
 
        selection ="Correct";
+       //find the correct obj
+       findTheObj();
+
+
 
   }
   else if(playerSelected != selectedSoundId){
@@ -154,22 +164,81 @@ function compareResult(){
 };
 
 
-function DescriptionPage(){
+function DescriptionPage(info, picture){
   background(240);
-  for(let i =0; i<quizeObj.length;++i){
-    if(quizeObj[i].objID==selectedSoundId){
-      quizeObj[i].display(width/2-quizeObj[i].obj.width,height/2-150,200);
-    }
-  };
+  this.info = info;
+  this.picture = picture;
+
+  // console.log(resultInfo);
+
+  resultPicture.display(width/2-resultPicture.obj.width-150,height/2-150,200);
+
   fill(0);
-  textSize(50);
-  textAlign(CENTER,CENTER);
-  // text("CORRECT",width/2, height/2);
+  textSize(80);
+  textAlign(LEFT,TOP);
+  text(this.info.title,width/2-130, height/2-150);
+  textSize(20);
+  text("Date: "+ this.info.date,width/2-130, height/2-150+100);
+  text("Culture: "+ this.info.culture,width/2-130, height/2-150+130);
+  text("Classification: "+ this.info.classification,width/2-130, height/2-150+160);
   // for(let number in metData ){
   //   console.log(metData[number]);
   //
   //
   // }
+
+}
+
+
+
+function findTheObj(){
+
+// console.log(metData);
+
+//keep the picture
+for(let i =0; i<quizeObj.length;++i){
+  if(quizeObj[i].objID==selectedSoundId){
+     resultPicture =quizeObj[i];
+  };
+};
+//find the object in met data
+  for(let n in metData){
+    if(selectedSoundId==metData[n].objIds){
+
+      console.log(metData[n]);
+      resultInfo = metData[n];
+    }
+  };
+
+};
+
+function playMusic(){
+  playSound=!playSound;
+  if(playSound){
+    soundButton.button.html("Stop Music");
+  }else{
+    soundButton.button.html("Play Music");
+  }
+};
+
+class MyButton {
+
+
+  constructor(index,x,y,myfunction){
+    this.button;
+    this.index = index;
+    this.x =x;
+    this.y = y;
+    this.myfunction = myfunction;
+    this.button = createButton(this.index);
+    this.button.position(this.x,this.y);
+    this.button.mousePressed(this.myfunction);
+  }
+
+  remover(){
+    this.button.remove();
+  };
+
 
 }
 

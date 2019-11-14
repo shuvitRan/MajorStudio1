@@ -18,14 +18,13 @@ function preload(){
       objIds[i]=metData[i].objIds;
     });
   });
-
-
 }
 
 function setup(){
   var canvas =createCanvas(windowWidth,600);
 
   canvas.parent('container');
+
   // console.log(metData);
   // console.log(images);
   // resizeImages();
@@ -50,10 +49,13 @@ function draw(){
 
       break;
       case "Quize":
-      background(0,0,0);
+      background(20,20,20);
 
-      if(!sound.isPlaying()){
+      if(!sound.isPlaying() && playSound==true){
         sound.loop();
+      }else if(playSound ==false){
+        sound.pause();
+
       };
       if(selection=="waitSelect"){
 
@@ -77,9 +79,11 @@ function draw(){
       textSize(50);
       textAlign(CENTER,CENTER);
       text("CORRECT",width/2, height/2);
+
       setTimeout(function(){
         page="Result";
-        
+
+        selection="waitSelect";
 
 
       },1000);
@@ -89,8 +93,18 @@ function draw(){
       break;
 
       case "Result":
-      sound.stop()
-      DescriptionPage();
+      // sound.stop();
+      DescriptionPage(resultInfo, resultPicture);
+
+
+
+
+      // setTimeout(function(){
+      //   page="Start";
+      //
+      //
+      //
+      // },1000);
 
 
 
