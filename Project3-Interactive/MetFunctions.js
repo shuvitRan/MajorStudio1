@@ -15,39 +15,49 @@ function StartButton(){
 
   rectMode(CENTER);
   let buttonWidth=200;
-  let buttonHeight=50;
+  let buttonHeight=40;
 
 
 
   if(mouseX>=width/2-buttonWidth/2 &&
     mouseX<=width/2+buttonWidth/2 &&
-    mouseY<=height*2/3+buttonHeight/2 &&
-    mouseY>=height*2/3-buttonHeight/2){
-      noFill();
+    mouseY<=height/2+buttonHeight/2 &&
+    mouseY>=height/2-buttonHeight/2){
+      // fill(random(100,255),20,100);
+      fill(20);
       stroke(200,20,200,200);
-      strokeWeight(3);
+      // stroke(200);
+      strokeWeight(2);
         // fill(230,20,50,200);
-      rect(width/2, height*2/3,buttonWidth,buttonHeight,10);
+      rect(width/2, height/2,buttonWidth,buttonHeight,10);
+      cursor('pointer');
+
+
       if(mouseIsPressed){
           calculateQuize();
-
-
-        page="Loading";
+          page="Loading";
+          if(!clickSound.isPlaying()){
+             clickSound.play();
+          }
 
       };
 
   }else{
     noFill();
+    // fill(random(100,255),20,100);
     stroke(230,20,100,200);
-    strokeWeight(3);
+    // stroke(100);
+    strokeWeight(2);
     // fill(230,20,100,200);
-    rect(width/2, height*2/3,buttonWidth,buttonHeight,10);
+    rect(width/2, height/2,buttonWidth,buttonHeight,10);
+    cursor('default');
   };
   noStroke();
-  fill(255);
+  fill(200);
   textSize(20);
   textAlign(CENTER,CENTER);
-  text("start",width/2, height*2/3)
+  text("Start",width/2, height/2);
+
   // enterButton.mouseOver();
 };
 
@@ -66,7 +76,9 @@ class DisplayInstruments {
          playerSelected = this.objID;
 
 
-         console.log("this is item: "+this.objID);
+
+
+         // console.log("this is item: "+this.objID);
 
          compareResult();
 
@@ -79,13 +91,21 @@ class DisplayInstruments {
        my >=this.y &&
        my<=this.y+this.obj.height){
          // this.obj.resize(0,250);
+
          push();
-         stroke(230,20,100,100);
-         strokeWeight(4);
+         stroke(220,220,220,255);
+         strokeWeight(5);
          rectMode(CORNER);
-         fill(230,20,10,100);
+         fill(255,255,255,100);
          rect(this.x,this.y,this.obj.width,this.obj.height);
          pop();
+
+
+
+
+     } else{
+
+        // cursor('default')
      }
   }
 
@@ -105,7 +125,7 @@ class DisplayInstruments {
 function calculateQuize(){
   let thisObjId = [...objIds];
 
-  for(let i=0; i<4;++i){
+  for(let i=0; i<3;++i){
     let thisid= random(thisObjId);
     selectedItems[i]=thisid;
     //Deleting the added value from the clone array
@@ -114,17 +134,18 @@ function calculateQuize(){
     quizeObj[i] = new DisplayInstruments(selectedItems[i]);
   }
   selectedSoundId=random(selectedItems);
-  sound = loadSound("../../MajorStudioSupportFile/InteractiveProject/WorldMusicTrack/"+
+  // sound = loadSound("../../MajorStudioSupportFile/InteractiveProject/WorldMusicTrack/"+
+  sound = loadSound("sound/"+
     selectedSoundId+".mp3",()=>{
-    console.log("selectedItems:"+ selectedItems);
-    console.log("QuizeObj:"+quizeObj);
-    console.log("selectedSoundId"+selectedSoundId);
+    // console.log("selectedItems:"+ selectedItems);
+    // console.log("QuizeObj:"+quizeObj);
+    // console.log("selectedSoundId"+selectedSoundId);
 
 
     SoundStatus();
     page="Quize";
-    soundButton = new MyButton("Stop Music", width/2+100,600, playMusic);
-    restartButton = new MyButton("Restart",width/2-100,600, restartGame);
+    soundButton = new MyButton("Stop Music", width/2+10,height/2+200, playMusic);
+    restartButton = new MyButton("Restart",width/2-210,height/2+200, restartGame);
 
 
   });
@@ -144,10 +165,21 @@ function displayQuizeImages(){
   let newX =  centerX;
   selectedItems.forEach((n,i)=>{
     // thisX+=quizeObj[i].obj.width;
-    quizeObj[i].display(newX,height/2-100,200);
+    quizeObj[i].display(newX,height/2-150,img_height);
     newX+=quizeObj[i].obj.width+10;
     quizeObj[i].selected(mouseX,mouseY);
+    cursor('pointer');
   });
+
+  // fill(204, 48, 118);
+  fill(255);
+  textSize(30);
+  textAlign(CENTER,CENTER);
+  text("Guess which intrument is used to perform the sound.",width/2, height/2-200);
+
+
+
+
 
 };
 
@@ -169,6 +201,10 @@ function compareResult(){
        //find the correct obj
        findTheObj();
        playSound = true;
+       if(!correctSound.isPlaying()){
+
+         correctSound.play();
+       }
 
 
 
@@ -177,6 +213,10 @@ function compareResult(){
   else if(playerSelected != selectedSoundId){
 
     selection = "Wrong";
+    if(!wrongSound.isPlaying()){
+
+      wrongSound.play();
+    }
 
     // page="ResultWrong";
 
@@ -193,16 +233,17 @@ function DescriptionPage(info, picture){
   SoundViz();
   // console.log(resultInfo);
 
-  resultPicture.display(width/2-resultPicture.obj.width-150,height/2-150,200);
+  resultPicture.display(width/2-resultPicture.obj.width-100,height/2-150,img_height);
+  let textX = width/2-80;
 
   fill(255);
   textSize(80);
   textAlign(LEFT,TOP);
-  text(this.info.title,width/2-130, height/2-150);
+  text(this.info.title,textX, height/2-150);
   textSize(20);
-  text("Date: "+ this.info.date,width/2-130, height/2-150+100);
-  text("Culture: "+ this.info.culture,width/2-130, height/2-150+130);
-  text("Classification: "+ this.info.classification,width/2-130, height/2-150+160);
+  text("Date: "+ this.info.date,textX, height/2-150+100);
+  text("Culture: "+ this.info.culture,textX, height/2-150+130);
+  text("Classification: "+ this.info.classification,textX, height/2-150+160);
   // for(let number in metData ){
   //   console.log(metData[number]);
   //
@@ -228,7 +269,7 @@ for(let i =0; i<quizeObj.length;++i){
   for(let n in metData){
     if(selectedSoundId==metData[n].objIds){
 
-      console.log(metData[n]);
+      // console.log(metData[n]);
       resultInfo = metData[n];
     }
   };
@@ -258,6 +299,12 @@ function restartGame(){
   sound.stop();
   };
 
+  if(!clickSound.isPlaying()){
+
+     clickSound.play();
+  }
+
+
   playSound=true;
   soundButton.remover();
   restartButton.remover();
@@ -266,12 +313,12 @@ for(let i = 0; i<fftCircles.length;i++){
   fftCircles[i].pUpdate();
 };
 
-if(page =="Quize"){
+// if(page =="Quize"){
   calculateQuize();
   page="Loading";
-} else if(page =="Result"){
-  page="Start";
-}
+// } else if(page =="Result"){
+//   page="Start";
+// }
 
 }
 

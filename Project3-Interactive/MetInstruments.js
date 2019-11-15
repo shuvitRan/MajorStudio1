@@ -2,7 +2,7 @@
   let images=[];
   let sound;
   let objIds=[];
-  img_height=100;
+  let img_height=300;
 
   let playSound = true;
   let selection ="waitSelect";
@@ -13,11 +13,17 @@
 
 let font1;
 var movingDots = []
-let myMainFont = 'Trebuchet MS';
+// let myMainFont = 'Trebuchet MS';
+let myMainFont = 'Palatino';
+
+
+let myTime = 0;
 // let myMainFont = 'Comic Sans MS';
 
 //perlinnoise
 var t;
+
+let correctSound, wrongSound,clickSound;
 
 
 // sound Vis
@@ -26,12 +32,20 @@ let fftCircles =[];
 
 function preload(){
   metData = loadJSON("DataRequest/insdata.json", data=>{
-    font1 = loadFont("style/PatrickHand-Regular.ttf");
+    // font1 = loadFont("style/PatrickHand-Regular.ttf");
+    font1 = loadFont("style/Cochinchine.ttf");
     // font2 = loadFont("");
+    correctSound = loadSound("sound/fx/correct.mp3");
+    wrongSound = loadSound("sound/fx/wrong.mp3");
+    clickSound = loadSound("sound/fx/click.mp3");
+    // selectSoundFx = loadSound("sound/select.mp3")
+
     data.forEach(function(n,i){
       images[i]= loadImage("resizeImg/"+ metData[i].objIds+".jpg");
       // sound[i]= loadSound("../../MajorStudioSupportFile/InteractiveProject/WorldMusicTrack/"+metData[i].objIds+".mp3");
       objIds[i]=metData[i].objIds;
+
+
     });
   });
 }
@@ -44,7 +58,7 @@ function setup(){
 
   fft = new p5.FFT(0.9,64);
   wfft= width/64;
-
+  clickSound.setVolume(0.5);
 
 
   // flock = new Flock();
@@ -59,11 +73,11 @@ function setup(){
 
   // textAlign(LEFT);
   textFont(font1);
-  textSize(150);
+  textSize(120);
   let aString = 'Let the music play!';
   let tWidth= textWidth(aString);
-  console.log(tWidth);
-  var points = font1.textToPoints(aString,(width-tWidth)/2,height/2,150,{
+  // console.log(tWidth);
+  var points = font1.textToPoints(aString,(width-tWidth)/2,height/2-100,120,{
   sampleFactor: 0.25
 
    // simplifyThreshold: 0
@@ -102,7 +116,7 @@ function draw(){
 
       background(20);
 
-
+      DescriptionParagraph(height/2+100);
       // textFont(font1);
 
       for(let i =0; i< movingDots.length; i++){
@@ -138,8 +152,6 @@ function draw(){
 // }
 
 
-
-
       noStroke();
       // SoundStatus();
       displayQuizeImages();
@@ -147,10 +159,10 @@ function draw(){
 
         playerSelected=0;
         // background(200,50,0);
-        fill(200,200,200);
+        fill(250);
         textSize(50);
         textAlign(CENTER,CENTER);
-        text("WHOOPS...TRY AGAIN.",width/2, 100);
+        text("WHOOPS...TRY AGAIN.",width/2, height/2-250);
 
         setTimeout(function(){
           selection="waitSelect";
@@ -164,7 +176,7 @@ function draw(){
       fill(250,250,250);
       textSize(50);
       textAlign(CENTER,CENTER);
-      text("YES, YOU ARE RIGHT.",width/2, 100);
+      text("YES, YOU ARE RIGHT.",width/2, height/2-250);
 
       setTimeout(function(){
         selection="waitSelect";
@@ -179,7 +191,9 @@ function draw(){
       case "Result":
       // sound.stop();
       // SoundStatus();
+
       DescriptionPage(resultInfo, resultPicture);
+      DescriptionParagraph(height/2+300);
       // SoundStatus();
 
 
@@ -207,8 +221,8 @@ function windowResized(){
     resizeCanvas(windowWidth,windowHeight);
 
   if(page!="Start"){
-    soundButton.checkWidth(width/2+100,550);
-    restartButton.checkWidth(width/2-100,550);
+    soundButton.checkWidth(width/2+10,550);
+    restartButton.checkWidth(width/2-210,550);
   }
 }
 
@@ -246,4 +260,16 @@ function DisplayImages(){
           thiswidth=0;
         }
       }
+}
+
+
+
+function DescriptionParagraph(y){
+  this.y =y;
+  push();
+  fill(200);
+  textSize(12);
+  textAlign(CENTER,CENTER);
+  text("This is an interactive project based on Met's instruments collection.\n The project aims to provide the audience with a sensual association between the 24 instruments and their sounds.",width/2, this.y);
+  pop();
 }

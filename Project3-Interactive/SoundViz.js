@@ -10,9 +10,9 @@ function SoundViz(){
 
   var x = width * noise(t);
   var y = height * noise(t+5);
-  var r = 255 * noise(t+10);
-  var g = 255 * noise(t+15);
-  var b = 255 * noise(t+20);
+  var red = 255 * noise(t+10);
+  var g = 100 * noise(t+15);
+  var b = 200 * noise(t+20);
   // background(r, g, b);
 
 noStroke();
@@ -22,11 +22,15 @@ noStroke();
     let amp = spectrum[i];
     let y = map(amp, 0 , 64, height, 0);
       let r = map(amp, 0 , 64, 4, 70);
+
+      let mix = map(r+red,0,316,21,200)
         // fill(100);
     // rect(i*wfft,y, wfft ,height -y);
     // fill(random(40,150));
     // fill(random(r));
-    fill(r,0,b)
+    // fill(r,g,b);
+    fill(mix,20,b);
+      // fill(mix);
     fftCircles[i].move();
     fftCircles[i].display(r);
   };
@@ -54,6 +58,10 @@ class Jitter {
   }
 
   move() {
+    // this.n = n;
+    // this.z = z;
+    // this.x += n;
+    // this.y += z;
     this.x += random(-this.speed, this.speed);
     this.y += random(-this.speed, this.speed);
   }

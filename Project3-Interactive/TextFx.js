@@ -11,7 +11,7 @@ this.r = 3;
 this.maxspeed = 10;
 this.maxforce = 1;
 
-this.mycolor = random(100,255);
+this.mycolor = random(100,250);
 // this.noiseX;
 // this.noiseY;
 }
@@ -61,7 +61,8 @@ MovingDot.prototype.show = function(){
   // let g = noise(this.noiseX,this.noiseY)*255;
   // stroke(r,0,0);
   stroke(this.mycolor,20,100);
-  // stroke(random(100,250),100,100);
+    // stroke(this.mycolor);
+  // stroke(random(100,250),20,200);
   strokeWeight(this.r);
   point(this.pos.x, this.pos.y);
 
