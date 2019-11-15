@@ -33,8 +33,8 @@ let fftCircles =[];
 function preload(){
   metData = loadJSON("DataRequest/insdata.json", data=>{
     // font1 = loadFont("style/PatrickHand-Regular.ttf");
-    font1 = loadFont("style/Cochinchine.ttf");
-    
+    font1 = loadFont("styleFile/Cochinchine.ttf");
+
     // font2 = loadFont("");
     correctSound = loadSound("sound/fx/correct.mp3");
     wrongSound = loadSound("sound/fx/wrong.mp3");
