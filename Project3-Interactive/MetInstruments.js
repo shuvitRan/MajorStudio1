@@ -8,6 +8,7 @@
   let selection ="waitSelect";
 
   let page = "Start";
+    let vizPage = 1;
 
   let isClickAble = false;
 
@@ -25,10 +26,14 @@ var t;
 
 let correctSound, wrongSound,clickSound;
 
+let posneg=1, random4Shape=1;
 
 // sound Vis
-let fft, wfft;
+let fft, wfft,fft2;
 let fftCircles =[];
+let fftLines = [];
+
+let showInfo =false;
 
 function preload(){
   metData = loadJSON("DataRequest/insdata.json", data=>{
@@ -58,6 +63,7 @@ function setup(){
   canvas.parent('container');
 
   fft = new p5.FFT(0.9,64);
+  fft2 = new p5.FFT(0.9,16);
   wfft= width/64;
   clickSound.setVolume(0.5);
 
@@ -66,8 +72,13 @@ function setup(){
   // Add an initial set of boids into the system
   for (let i = 0; i < 64; i++) {
     fftCircles.push(new Jitter());
+    fftLines.push(new SoundLine());
   }
 
+  // for(let i =0; i<256;i++){
+  //
+  //
+  // }
   // console.log(metData);
   // console.log(images);
   // resizeImages();
@@ -89,7 +100,7 @@ function setup(){
     let movingDot = new MovingDot(pt.x,pt.y);
     movingDots.push(movingDot);
   }
-t = 0;
+t = 0.0;
   textFont(myMainFont);
 
 }
@@ -198,7 +209,12 @@ function draw(){
       // SoundStatus();
 
 
+      if(!showInfo){
+      showInfo=true;
 
+      }else{
+      return;
+      };
       // setTimeout(function(){
       //   page="Start";
       //
@@ -224,7 +240,12 @@ function windowResized(){
   if(page!="Start"){
     soundButton.checkWidth(width/2+10,550);
     restartButton.checkWidth(width/2-210,550);
+
   }
+  if(page=="Result"){
+    infoButton.checkWidth(width/2-80,height/2+40);
+  }
+
 }
 
 function SoundStatus(){

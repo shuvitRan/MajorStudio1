@@ -1,7 +1,7 @@
 /* # */
- button{
+button {
   color:white;
-
+-webkit-animation: fadein 2s;
   /* margin-left: 5%; */
   /* margin: 30px 20px; */
   width: 200px;
@@ -17,7 +17,7 @@
   /* border-color: rgb(195, 195, 195); */
   outline:none;
   border-radius: 10px;
-  transition: 1s;
+  transition: 2s;
   font-weight: bold;
 
 
@@ -25,11 +25,10 @@
 
 }
 
-
 button:hover{
   color:white;
 
-  background-color: rgba(227, 227, 227, .5)  !important;
+  background-color: rgba(10, 10, 10, .8)  !important;
   /* background-color: transparent; */
   background-color: rgb(20, 10, 15,.5);
   /* border:  none; */
@@ -41,4 +40,23 @@ button:hover{
   /* width: 205px; */
 
 
+}
+
+
+ .infoButton{
+   border-color:white;
+   background-color: rgb(20, 0, 10,.1);
+   width: 80px;
+   /* text-align: left; */
+   line-height: 25px;
+  /* border:  none !important; */
+  -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+
+
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

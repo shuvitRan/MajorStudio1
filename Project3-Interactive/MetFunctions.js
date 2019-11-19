@@ -9,7 +9,7 @@ let quizeObj=[];
 let resultInfo;
 let resultPicture;
 
-let soundButton, restartButton;
+let soundButton, restartButton, infoButton;
 
 function StartButton(){
 
@@ -144,8 +144,8 @@ function calculateQuize(){
 
     SoundStatus();
     page="Quize";
-    soundButton = new MyButton("Stop Music", width/2+10,height/2+200, playMusic);
-    restartButton = new MyButton("Restart",width/2-210,height/2+200, restartGame);
+    soundButton = new MyButton("Stop Music", width/2+10,height/2+200, playMusic, "regular");
+    restartButton = new MyButton("Restart",width/2-210,height/2+200, restartGame, "regular");
 
 
   });
@@ -205,6 +205,8 @@ function compareResult(){
 
          correctSound.play();
        }
+
+       infoButton = new MyButton("More Info",width/2-80,height/2+40, MoreInfoFromMet, "infoButton");
 
 
 
@@ -304,14 +306,42 @@ function restartGame(){
      clickSound.play();
   }
 
+ random4Shape=random(2,10);
+  if(posneg==1){
+    posneg=-1;
+  }else{
+    posneg=1;
+  }
+
+  if(vizPage==1){
+
+    for(let i = 0; i<fftLines.length;i++){
+      fftLines[i].update();
+    };
+
+    vizPage=2;
+
+
+  }else if(vizPage==2){
+      // posneg=random(-2,2);
+    vizPage=3
+  } else if(vizPage==3){
+
+    for(let i = 0; i<fftCircles.length;i++){
+      fftCircles[i].pUpdate();
+    };
+    vizPage=1;
+
+
+  }
 
   playSound=true;
   soundButton.remover();
   restartButton.remover();
-
-for(let i = 0; i<fftCircles.length;i++){
-  fftCircles[i].pUpdate();
+  if(page =='Result'){
+  infoButton.remover();
 };
+
 
 // if(page =="Quize"){
   calculateQuize();
@@ -322,18 +352,43 @@ for(let i = 0; i<fftCircles.length;i++){
 
 }
 
+function MoreInfoFromMet(){
+  // resultInfo.objecIds
+  let win= window.open("https://www.metmuseum.org/art/collection/search/"+resultInfo.objIds,"_blank");
+  win.focus();
+  if(!clickSound.isPlaying()){
+
+     clickSound.play();
+  }
+
+
+}
+
+
+
+
+
+
+
 class MyButton {
 
 
-  constructor(index,x,y,myfunction){
+  constructor(index,x,y,myfunction,buttonClass){
     this.button;
     this.index = index;
     this.x =x;
     this.y = y;
     this.myfunction = myfunction;
+
     this.button = createButton(this.index);
+    if(buttonClass != undefined){
+      this.buttonClass= buttonClass;
+      // this.button.class(`${this.buttonClass}`);
+      this.button.class(this.buttonClass);
+    }
     this.button.position(this.x,this.y);
     this.button.mousePressed(this.myfunction);
+
   }
 
   checkWidth(updateX){
