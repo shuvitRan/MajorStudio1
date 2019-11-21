@@ -31,6 +31,8 @@ function fetchObjects(data){
 
     objectIDs.forEach(function(n) {
       // console.log(objectBaseUrl + n);
+
+      n == nytsting
       let objUrl = objectBaseUrl + n;
       window
         .fetch(objUrl)
@@ -58,7 +60,5 @@ function addObject(objectData){
 
 
     // myArray.push{
-
     // };
-
 }
