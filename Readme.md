@@ -22,7 +22,7 @@
 ### 2
 ![sketch](https://github.com/shuvitRan/MajorStudio1/blob/master/ProjectSketch/P2_2.jpg)
 ### 3
-![sketch](https://github.com/shuvitRan/MajorStudio1/tree/master/ProjectSketch/P2_3.jpg)
+![sketch](https://github.com/shuvitRan/MajorStudio1/blob/master/ProjectSketch/P2_3.jpg)
 
 ------------------------------------
 
