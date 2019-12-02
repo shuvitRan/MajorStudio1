@@ -9,5 +9,5 @@ package-lock.json
 .env
 ecosystem.config.js
 .c9/
-
+config.js
 
