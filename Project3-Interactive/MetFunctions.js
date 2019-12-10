@@ -145,6 +145,7 @@ function calculateQuize(){
     SoundStatus();
     page="Quize";
     soundButton = new MyButton("Stop Music", width/2+10,height/2+200, playMusic, "regular");
+    
     restartButton = new MyButton("Next",width/2-210,height/2+200, restartGame, "regular");
 
 
