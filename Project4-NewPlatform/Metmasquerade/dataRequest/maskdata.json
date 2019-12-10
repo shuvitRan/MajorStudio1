@@ -1,0 +1,91 @@
+[{
+  "objIds": 313444,
+  "title": "Mask",
+  "date": 500,
+  "image": "https://images.metmuseum.org/CRDImages/ao/original/1979.206.1279_a.jpg",
+  "culture": "Moche (Loma Negra)",
+  "filename": "1979.206.1279_a.jpg",
+  "classification": "Metal-Ornaments",
+  "medium": "Silvered copper"
+}, {
+  "objIds": 26563,
+  "title": "Helmet",
+  "date": 1600,
+  "image": "https://images.metmuseum.org/CRDImages/aa/original/DP147175.jpg",
+  "culture": "Turkish",
+  "filename": "DP147175.jpg",
+  "classification": "Helmets",
+  "medium": "Copper alloy (tombak), gold"
+}, {
+  "objIds": 22739,
+  "title": "Mask",
+  "date": 1745,
+  "image": "https://images.metmuseum.org/CRDImages/aa/original/LC-19_115_2-002.jpg",
+  "culture": "Japanese",
+  "filename": "LC-19_115_2-002.jpg",
+  "classification": "Armor Parts-Masks",
+  "medium": "Iron, lacquer, textile (silk)"
+}, {
+  "objIds": 255940,
+  "title": "Bronze handle attachment in the form of a mask",
+  "date": -99,
+  "image": "https://images.metmuseum.org/CRDImages/gr/original/DP-14287-130.jpg",
+  "culture": "Greek or Roman",
+  "filename": "DP-14287-130.jpg",
+  "classification": "Bronzes",
+  "medium": "Bronze"
+}, {
+  "objIds": 671508,
+  "title": "Mask",
+  "date": -400,
+  "image": "https://images.metmuseum.org/CRDImages/ao/original/DP-13314-047.jpg",
+  "culture": "Condorhuasi-Alamito",
+  "filename": "DP-13314-047.jpg",
+  "classification": "Stone Sculpture",
+  "medium": "Stone (lapis lazuli)"
+}, {
+  "objIds": 314544,
+  "title": "Face Mask Ornament",
+  "date": 500,
+  "image": "https://images.metmuseum.org/CRDImages/ao/original/1982.392.15.JPG",
+  "culture": "Moche (Loma Negra)",
+  "filename": "1982.392.15.JPG",
+  "classification": "Metal-Ornaments",
+  "medium": "Silvered copper, shell, turquoise"
+}, {
+  "objIds": 318622,
+  "title": "Queen Mother Pendant Mask: Iyoba",
+  "date": 1500,
+  "image": "https://images.metmuseum.org/CRDImages/ao/original/DP231460.jpg",
+  "culture": "Edo peoples",
+  "filename": "DP231460.jpg",
+  "classification": "Bone/Ivory-Sculpture",
+  "medium": "Ivory, iron, copper"
+}, {
+  "objIds": 50421,
+  "title": "Mask",
+  "date": 700,
+  "image": "https://images.metmuseum.org/CRDImages/as/original/DP228221.jpg",
+  "culture": "Indonesia (Java)",
+  "filename": "DP228221.jpg",
+  "classification": "Metalwork",
+  "medium": "Gold"
+}, {
+  "objIds": 190001,
+  "title": "Mask",
+  "date": 1785,
+  "image": "https://images.metmuseum.org/CRDImages/es/original/DP108350.jpg",
+  "culture": "French",
+  "filename": "DP108350.jpg",
+  "classification": "Metalwork-Gilt Bronze",
+  "medium": "Gilt bronze"
+}, {
+  "objIds": 319070,
+  "title": "Transformation Mask",
+  "date": 1820,
+  "image": "https://images.metmuseum.org/CRDImages/ao/original/DP259593.jpg",
+  "culture": "Tlingit",
+  "filename": "DP259593.jpg",
+  "classification": "Wood-Sculpture",
+  "medium": "Wood, paint, metal coins, native-tanned skin"
+}]

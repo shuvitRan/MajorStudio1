@@ -1,0 +1,320 @@
+
+canvas.deepar {
+      border: 0px none;
+      background-color: black;
+      display: block;
+      margin: auto;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    }
+/* important for canvas fill the window size */
+    html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0;
+cursor: url("../assets/touchcursor.png"),pointer;
+  }
+
+
+.btn{
+    display: inline-block;
+    position: absolute;
+    bottom:8%;
+    left: 50%;
+    right: 50%;
+     margin-left: -25px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-decoration: none;
+    background: #e72e2e;
+    /* color: rgba(255, 255, 255, 0.47); */
+    background-image: -webkit-linear-gradient(45deg, #ff0606 0%, #ff3d77 100%);
+  background-image: linear-gradient(45deg, #ff0606 0%, #ff3d77 100%);
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 10px;
+    border-radius: 40%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border: solid 5px rgba(255, 255, 255, 0.77);
+      transition: 2s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(45deg, #bd04d4 0%, #f73535 100%);
+    background-image: linear-gradient(45deg, #cc00ff 0%, #f51616 100%);
+}
+
+.btn:active{
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+    /* border-bottom: none; */
+    background-image: -webkit-linear-gradient(#c80041 0%, #a20000 100%);
+    background-image: linear-gradient(#c80041 0%, #a20000 100%);
+}
+
+
+.square_btn{
+    display: inline-block;
+    /* position: absolute; */
+    /* top: 33%; */
+    /* right: 5%; */
+    /* vertical-align: middle; */
+    /* right: 50%; */
+    /* z-index: 10; */
+    padding-top: 20px;
+    background: #e72e2e;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    /* font-weight: bold; */
+    /* border-radius: 4px; */
+    color: rgba(255, 255, 255, 0.9);
+    /* text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); */
+    /* background-image: -webkit-linear-gradient(#0e0000 0%, #f51616 100%);
+    background-image: linear-gradient(##0e0000 0%, #f51616 10%); */
+    background-color: black;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29); */
+    /* border-bottom: solid 3px #5e7fca; */
+
+}
+
+.square_btn:hover {
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(45deg, #bd04d4 0%, #f73535 100%);
+    background-image: linear-gradient(45deg, #cc00ff 0%, #f51616 100%);
+
+}
+
+.square_btn:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    background-image: -webkit-linear-gradient(#a20000 0%, #c80041 100%);
+    background-image: linear-gradient(#a20000 0%, #c80041 100%);
+    /* box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); */
+    /* border-bottom: none; */
+}
+
+
+
+
+#title {
+font-family: 'Noto Serif JP', serif;
+
+  position: absolute;
+  top:14%;
+  right: 7%;
+  z-index: 10;
+  height: 12vw;
+  width : 34vw;
+  /* border-radius: 20px; */
+  background-color: #f61010;
+  text-align: center;
+
+}
+
+
+#maskInfo {
+  font-family: 'Noto Sans JP', sans-serif;
+  position: absolute;
+  /* display: inline-block; */
+  margin-left: auto;
+  margin-right: auto;
+  bottom:15%;
+  right: 0;
+  left: 0;
+
+  z-index:-5;
+  height: 40vh;
+  width : 90vw;
+  radius:20px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0,0.4);
+  color: white;
+  text-align: center;
+  /* content: ""; */
+  /* display: table; */
+  clear: both;
+  display: flex;
+
+
+}
+#columnContainer{
+margin: auto;
+/* font-size:0px; */
+/* margin-left: auto;
+margin-right: auto; */
+
+}
+H2{
+  font-size: 30px;
+  font-weight: Black;
+
+  /* padding-bottom: 5px; */
+}
+#aboutMask p{
+font-weight: Thin;
+
+}
+
+#aboutMask{
+
+  vertical-align: middle;
+
+  display: inline-block;
+  padding: 0;
+
+  margin: auto;
+  text-align: left;
+  align-items: center;
+/* float: left; */
+  width: 25%;
+  /* padding: 0px; */
+  height: 40vh; /* Should be removed. Only for demonstration */
+/* font-size:12px; */
+}
+#cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -2;
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  #maskInfo {
+
+    /* position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:5%;
+    right: 0;
+    left: 0;
+    radius:20px;
+    z-index:-5; */
+    height: 70vh;
+    width : 90vw;
+    /* border-radius: 20px; */
+
+    text-align: center;
+    /* content: ""; */
+    /* display: table; */
+    clear: both;
+    /* display: flex; */
+    background-color: rgb(0, 0, 0,0.8);
+  }
+
+  H2{
+    font-size: 20px;
+    font-weight: Black;
+
+    /* padding-bottom: 5px; */
+  }
+  #aboutMask{
+    /* display: inline-block; */
+  /* padding: 10px; */
+  text-align: left;
+  /* float: left; */
+  width: 50%;
+  padding: 0px;
+  height: 30vh; /* Should be removed. Only for demonstration */
+
+  }
+
+}
+#myTip{
+position: absolute;
+margin: auto;
+width: 300px;
+/* display: block; */
+top:50%;
+left:50%;
+margin-left: -150px;
+margin-top: -50px;
+z-index: 20;
+text-align: center;
+
+
+
+}
+
+#myTip p{
+font-family: 'Noto Sans JP', sans-serif;
+/* font-weight: regular; */
+font-size: 20;
+color: white;
+-webkit-animation-name: myToolAnimation; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+animation-name: myToolAnimation;
+animation-duration: 10s;
+opacity: 0;
+}
+
+@-webkit-keyframes myToolAnimation {
+  0%   {opacity: 0.3;}
+  25%  {opacity: 1;}
+  50%  {opacity: 0.3;}
+  75%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* Standard syntax */
+@keyframes myToolAnimation {
+  0%   {opacity: 0.3;}
+  25%  {opacity: 1;}
+  50%  {opacity: 0.3;}
+  75%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+#imgTip{
+
+position: absolute;
+margin-left: -109px;
+  -webkit-animation-name: imgAnimation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: imgAnimation;
+  animation-duration: 10s;
+  opacity: 0;
+
+}
+
+@-webkit-keyframes imgAnimation {
+  0%   {opacity: 1; left:50%;}
+  25%  {left:40%;}
+  50%  {left:60%;}
+  75%  {opacity: 1;left:40%;}
+  100% {opacity: 1;left:50%;}
+}
+@keyframes imgAnimation {
+  0%   {opacity: 1; left:50%;}
+  25%  {left:40%;}
+  50%  {left:60%;}
+  75%  {opacity: 1;left:40%;}
+  100% {opacity: 0;left:50%;}
+}
+
+#footer{
+  width: 300px
+  font-family:'Noto Sans JP', sans-serif;
+position: absolute;
+bottom: 1%;
+color: white;
+left:50%;
+font-size: 10px;
+text-align: center;
+margin-left: -133px;
+
+
+
+}
