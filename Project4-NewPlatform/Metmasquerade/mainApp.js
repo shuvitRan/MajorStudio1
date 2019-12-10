@@ -3,8 +3,6 @@ let myKey = config.MY_KEY;
 
 var deepAR;
 
-
-
 let myTitle = d3.select("body").append('div')
 .attr("id", "title");
   myTitle.append("h1")

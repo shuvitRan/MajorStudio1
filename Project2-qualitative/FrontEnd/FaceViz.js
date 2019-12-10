@@ -509,7 +509,7 @@ if(detailView==true){
             .append("div")
             .attr("class","detailPages")
             .style("padding","10px")
-            .style("z-index", "100")
+            .style("z-index", "2")
         let detailTitle=  showDetaiPages.append("div")
               .attr("class","submenu")
               .style("display","flex")
