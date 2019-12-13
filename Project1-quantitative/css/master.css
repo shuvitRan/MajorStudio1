@@ -9,8 +9,12 @@ body {
   text-anchor: end;
 }
 #subtitle{
-color:rgb(133, 133, 133);
-font-size:12px;
+  /* padding-left: 10px; */
+  margin-top: 0;
+  padding-top:0;
+color:#343434;
+font-size:17px;
+font-weight:normal;
 display: block;
 }
 
@@ -24,22 +28,35 @@ text{
 
 }
 
-
+.header {
+  background-image: url("../header2.jpg");
+  padding: 10%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+  /* min-height: 100%; */
+  /* background-size: contain; */
+    /* color: rgb(255, 255, 255); */
+}
 
 #mainDes{
   position: relative;
-  margin-left:  5%;
+  /* margin-left:  5%; */
   padding-bottom:  2%;
   display: block;
-  background-color: white;
+  /* background-color: white; */
   /* padding-top: -30px; */
 color:rgb(62, 62, 62);
-font-size:14px;
-width: 680px;
+font-size:16px;
+width: 50vw;
 }
 
 h1{
-  font-size: 40px;
+  font-size: 4vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
 
 }
 
@@ -167,7 +184,7 @@ font-weight : bold ;
 
 footer {
   background-color:  white;
-  opacity: .3;
+  opacity: .8;
   position:fixed;
     bottom: 0px;
     height: 40px;
