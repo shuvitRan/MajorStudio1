@@ -127,7 +127,8 @@ function draw(){
 
 
       background(20);
-
+      // lineViz();
+      circleViz();
       DescriptionParagraph(height/2+100);
       // textFont(font1);
 
