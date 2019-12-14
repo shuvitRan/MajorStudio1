@@ -30,10 +30,10 @@ text{
 
 .header {
   background-image: url("../header2.jpg");
-  padding: 10%;
-  position: relative;
+  /* padding: 10%; */
+  /* position: relative; */
   background-attachment: fixed;
-  background-position: top;
+  background-position: top,bottom;
   background-repeat: no-repeat;
   background-size: cover;
   /* min-height: 100%; */
@@ -41,11 +41,17 @@ text{
     /* color: rgb(255, 255, 255); */
 }
 
+.header-text{
+
+  padding: 10%;
+  /* position: relative; */
+}
+
 #mainDes{
   position: relative;
   /* margin-left:  5%; */
-  padding-bottom:  2%;
-  display: block;
+  /* padding-bottom:  2%; */
+  display: inline-block;
   /* background-color: white; */
   /* padding-top: -30px; */
 color:rgb(62, 62, 62);
