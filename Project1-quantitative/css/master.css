@@ -29,7 +29,7 @@ text{
 }
 
 .header {
-  width: 1380px;
+  min-width: 1380px;
   background-image: url("../header2.jpg");
   /* padding: 10%; */
   /* position: relative; */
