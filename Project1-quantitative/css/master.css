@@ -30,6 +30,7 @@ text{
 
 .header {
   min-width: 1380px;
+  max-width: 100%;
   background-image: url("../header2.jpg");
   /* padding: 10%; */
   /* position: relative; */
