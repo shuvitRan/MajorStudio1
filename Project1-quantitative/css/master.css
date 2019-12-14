@@ -29,6 +29,7 @@ text{
 }
 
 .header {
+  min-width: 1360px;
   background-image: url("../header2.jpg");
   /* padding: 10%; */
   /* position: relative; */
@@ -114,6 +115,8 @@ border-bottom: .5px solid grey;
 }
 
 
+
+
 .vizGraph {
   /* background-color: white; */
   /* rgb(244, 242, 242) */
@@ -167,6 +170,9 @@ font-weight : bold ;
    border-radius: 40px;
    -webkit-transition: 2s; /* For Safari 3.1 to 6.0 */
     transition:  2s;
+}
+
+
 }
 #views:hover {
 /* margin-left: : 5%; */
