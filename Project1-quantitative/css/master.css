@@ -35,7 +35,7 @@ text{
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover, contain;
+  background-size: cover;
   /* min-height: 100%; */
   /* background-size: contain; */
     /* color: rgb(255, 255, 255); */
@@ -54,9 +54,11 @@ width: 50vw;
 }
 
 h1{
-  font-size: 4vw;
+  font-size: 50pt;
+  width: 50vw;
   margin-bottom: 0;
   padding-bottom: 0;
+
 
 }
 
